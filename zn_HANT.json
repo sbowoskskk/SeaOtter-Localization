@@ -59,9 +59,9 @@
         "vcsa" : "voice chat role set to",
         "vrm" : "configure the verified role first: run /config-roles and select 'vefified role' as function",
         "vct" : "Verify",
-        "vc1" : "Click the button below to link your CnR Account to your Discord account. This will give you the",
-        "vc2" : " role.",
-        "vcb" : "Verify ✅",
+        "vc1" : "點擊以下按鈕將您的 CnR 帳號連結至您的 Discord 帳號。這將為您賦予",
+        "vc2" : " 身份。",
+        "vcb" : "驗證 ✅",
         "vsa" : "succesfully enabled verification channel on",
         "vrsa" : "verified role set to"
     },
