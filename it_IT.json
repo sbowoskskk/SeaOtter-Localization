@@ -85,8 +85,8 @@
         "t2" : "online",
         "nop1" : "Nessun",
         "nop2" : "è attualmente online",
-        "j" : "è entrat* in",
-        "l" : "è uscit* da",
+        "j" : "è entratə in",
+        "l" : "è uscitə da",
         "o" : "o",
         "a" : "e",
         "m" : "altri",
@@ -102,7 +102,7 @@
         "efr": "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio"
     },
     "lev": {
-        "jlu": "È appena salit* di livello",
+        "jlu": "È appena salitə di livello",
         "la": "Livello raggiunto",
         "l": "Livello",
         "nl": "Prossimo Livello",
@@ -112,8 +112,8 @@
         "unk" : "Ops, non conosco quest'utente."
     },
     "logs": {
-        "jts": "È entrat* nel server",
-        "lts": "È uscit* dal server",
+        "jts": "È entratə nel server",
+        "lts": "È uscitə dal server",
         "dm": "Messaggio eliminato",
         "c": "Contenuto",
         "nc": "Nessun contenuto",
@@ -134,19 +134,19 @@
         "tc": "Chiudi il ticket",
         "co": "Conferma",
         "ca": "Annulla",
-        "fb": "È stato creato il tuo ticket e sei stat* menzionat*. Per favore controlla.",
+        "fb": "È stato creato il tuo ticket e sei statə menzionatə. Per favore controlla.",
         "cl": "Grazie per averci contattati. Se hai altri problemi, non esitare ad aprire un nuovo ticket.",
         "tcd" : "Ticket chiuso",
         "ter" : "**Errore**: questo non è il canale di supporto.\nPer favore, cancellare l'embed qui in alto e eseguire /config-channel per ristabilire il canale di supporto.",
         "nm1" : "Non sono riuscito a trovare un abbinamento tra il tuo account discord e il tuo account di CnR. é stato richiesto un inserimento manuale, per favore rirpova più tardi",
         "nm2" : "L'nserimento manuale del tuo ingame name é encora pending, per favore riprova più tardi",
         "nvr" : "il ruolo 'verificato' è stato rimosso, per favore, informa i gestori del server che il ruolo va riconfigurato.",
-        "iv" : "Sei stat* verificat* con il nome ",
+        "iv" : "Sei statə verificatə con il nome ",
         "iv2" : "se l'abbinamento non dovesse essere accurato, per favore apri un ticket in <https://is.gd/SeaOtterSupport>",
         "eo" : "Non posso rinominarti o aggiungerti ruoli perchè sei il proprietario del server. Avrei cambiato il tuo nome in",
         "er" : "Non posso rinominarti o aggiungerti ruoli perchè il tuo ruolo è più alto del mio. Per favore, informa i gestori del server che il mio ruolo deve stare più in alto per poter funzionare correttamente",
         "eu" : "Si è verificato un errore imprevisto. Per favore riprova più tardi.",
-        "mv" : "Si è verificat*.\nVecchio nome:",
+        "mv" : "Si è verificatə.\nVecchio nome:",
         "mv2" : "\nNuovo nome:"
     },
     "m" : {
@@ -164,12 +164,16 @@
             "ps" : "pending-ban riuscito",
             "pf" : "verrà bannato permanentemente dal server Discord non appena entrerà",
             "pml" : "Ha avviato un offline-ban per",
-            "pml2" : "l*i verrà bannat* appena entrerà nel server",
+            "pml2" : "ləi verrà bannatə appena entrerà nel server",
             "e1" : "L' ID non è corretto.",
             "e2" : "Quell'utente non esiste.",
             "e3" : "Errore. per foavore eseguire /offline-ban.",
             "dp" : "Non puoi bannare mi padre <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "è stato bannato permanentemente dal server Discord"
+            "cf" : "è stato bannato permanentemente dal server Discord",
+            "e4" : "L'utente è nel server.",
+            "e5" : "L'utente non esiste.", 
+            "e6" : "l'utente è già bannatə.",
+            "e7" : "C'è già un pending-ban nei confronti di quest'utente."
         },
         "k" : {
             "e1" : "Quell'utente non esiste in questo server.",
@@ -182,7 +186,7 @@
             "kl" : "Ha kickato",
             "e2" : "Si è verificato un errore durante l'elaborazione del kick."
         },
-        "t" : {
+        "ti" : {
             "e1" : "questo canale non è un ticket"
         },
         "l" : {
@@ -206,7 +210,7 @@
             "t" : "a",
             "i" : "è stato rinominato",
             "l" : "Ha rinominato",
-            "d" : "Sei stat* rinominat*"  
+            "d" : "Sei statə rinominatə"  
         },
         "ra" : {
             "r" : "",
@@ -222,6 +226,12 @@
             "f" : "da",
             "y" : "Il tuo ruolo",
             "e1" : "⛔ | Ooops! L'utente non ha quel ruolo."
+        },
+        "p" : {
+            "e1" : "Devi inserire un numero compreso fra 1 e 99.",
+            "e2" : "Si è verificato un errore per cancellare i messaggi!",
+            "f1" : "Ho cancellato ",
+            "f2" : " messaggi."
         }
     }
 }
