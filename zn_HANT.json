@@ -169,7 +169,11 @@
             "e2" : "That user didn't exist.",
             "e3" : "Please run /offline-ban.",
             "dp" : "You can't ban my daddy <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "has been indefinitely banned from the Discord server"
+            "cf" : "has been indefinitely banned from the Discord server",
+            "e4" : "That user exists in this server.",
+            "e5" : "That user doesn't exist.", 
+            "e6" : "That user is already banned from the server.",
+            "e7" : "That user already has a pending ban."
         },
         "k" : {
             "e1" : "That user doesn't exist in this server.",
@@ -182,7 +186,7 @@
             "kl" : "Has kicked",
             "e2" : "An error occurred while processing the kick."
         },
-        "t" : {
+        "ti" : {
             "e1" : "this is not a support ticket"
         },
         "l" : {
@@ -222,6 +226,12 @@
             "f" : "from",
             "y" : "Your",
             "e1" : "⛔ | Whoops! This user doesn't have this role yet."
+        },
+        "p" : {
+            "e1" : "You need to input a number between 1 and 99.",
+            "e2" : "There was an error trying to delete messages in this channel!",
+            "f1" : "Successfully deleted ",
+            "f2" : " messages."
         }
     }
 }

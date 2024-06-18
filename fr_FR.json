@@ -169,7 +169,11 @@
             "e2" : "Cet utilisateur n'existe pas.",
             "e3" : "Veuillez exécuter /offline-ban.",
             "dp" : "Vous ne pouvez pas bannir mon papa <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "a été définitivement banni du serveur Discord"
+            "cf" : "a été définitivement banni du serveur Discord",
+            "e4" : "That user exists in this server.",
+            "e5" : "That user doesn't exist.", 
+            "e6" : "That user is already banned from the server.",
+            "e7" : "That user already has a pending ban."
         },
         "k" : {
             "e1" : "Cet utilisateur n'existe pas dans ce serveur.",
@@ -182,7 +186,7 @@
             "kl" : "A expulsé",
             "e2" : "Une erreur s'est produite lors du traitement de l'expulsion."
         },
-        "t" : {
+        "ti" : {
             "e1" : "il n'est pas un support ticket"
         },
         "l": {
@@ -222,6 +226,12 @@
             "f": "de",
             "y": "Votre",
             "e1": "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle."
+        },
+        "p" : {
+            "e1" : "You need to input a number between 1 and 99.",
+            "e2" : "There was an error trying to delete messages in this channel!",
+            "f1" : "Successfully deleted ",
+            "f2" : " messages."
         }        
     }
 }
