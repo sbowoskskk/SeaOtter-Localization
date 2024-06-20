@@ -173,7 +173,9 @@
             "e4" : "That user exists in this server.",
             "e5" : "That user doesn't exist.", 
             "e6" : "That user is already banned from the server.",
-            "e7" : "That user already has a pending ban."
+            "e7" : "That user already has a pending ban.",
+            "af" : "User banned",
+            "paf" : "Pending made"
         },
         "k" : {
             "e1" : "Cet utilisateur n'existe pas dans ce serveur.",
@@ -184,7 +186,8 @@
             "mk" : "modérateur",
             "f" : "a été expulsé du serveur discord",
             "kl" : "A expulsé",
-            "e2" : "Une erreur s'est produite lors du traitement de l'expulsion."
+            "e2" : "Une erreur s'est produite lors du traitement de l'expulsion.",
+            "af" : "User Kicked"
         },
         "ti" : {
             "e1" : "il n'est pas un support ticket"
@@ -210,7 +213,8 @@
             "t": "à",
             "i": "a été renommé",
             "l": "A renommé",
-            "d": "Vous avez été renommé"
+            "d": "Vous avez été renommé",
+            "af" : "User renamed"
         },
         "ra": {
             "r": " rôle",
@@ -219,13 +223,15 @@
             "l": "A donné",
             "d": "Vous avez reçu",
             "e1": "Je ne peux pas assigner/retirer ce rôle car mon rôle le plus élevé est inférieur au rôle sélectionné.",
-            "e2": "⛔ | Oups! Cet utilisateur a déjà ce rôle."
+            "e2": "⛔ | Oups! Cet utilisateur a déjà ce rôle.",
+            "af" : "Role assigned"
         },
         "rr": {
             "r": "a été retiré",
             "f": "de",
             "y": "Votre",
-            "e1": "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle."
+            "e1": "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle.",
+            "af" : "Role removed"
         },
         "p" : {
             "e1" : "You need to input a number between 1 and 99.",

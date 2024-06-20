@@ -173,18 +173,21 @@
             "e4" : "L'utente è nel server.",
             "e5" : "L'utente non esiste.", 
             "e6" : "l'utente è già bannatə.",
-            "e7" : "C'è già un pending-ban nei confronti di quest'utente."
+            "e7" : "C'è già un pending-ban nei confronti di quest'utente.",
+            "af" : "Utente bannatə",
+            "paf" : "L'utente verrà bannatə"
         },
         "k" : {
             "e1" : "Quell'utente non esiste in questo server.",
-            "yf" : "Sei stato kickato dal server ",
+            "yf" : "Sei statə kickatə dal server ",
             "r" : "Rientra",
             "l" : "qui",
             "dk" : "Mi padre è stato kickato <a:ugh_smh:1174125047133241436> ",
             "mk" : "moderatore",
-            "f" : "è stato kickato dal server discord",
+            "f" : "è statə kickatə dal server discord",
             "kl" : "Ha kickato",
-            "e2" : "Si è verificato un errore durante l'elaborazione del kick."
+            "e2" : "Si è verificato un errore durante l'elaborazione del kick.",
+            "af" : "utente kickatə"
         },
         "ti" : {
             "e1" : "questo canale non è un ticket"
@@ -210,7 +213,8 @@
             "t" : "a",
             "i" : "è stato rinominato",
             "l" : "Ha rinominato",
-            "d" : "Sei statə rinominatə"  
+            "d" : "Sei statə rinominatə",
+            "af" : "Utente rinominatə"
         },
         "ra" : {
             "r" : "",
@@ -219,13 +223,15 @@
             "l" : "Ha dato a",
             "d" : "Hai  ricevuto",
             "e1" : "Non posso assegnare/rimuovere ruoli più alti del mio",
-            "e2" : "⛔ | Ooops! l'utente ha già questo ruolo."
+            "e2" : "⛔ | Ooops! l'utente ha già questo ruolo.",
+            "af" : "Ruolo assegnato"
         },
         "rr" : {
             "r" : "è stato rimosso",
             "f" : "da",
             "y" : "Il tuo ruolo",
-            "e1" : "⛔ | Ooops! L'utente non ha quel ruolo."
+            "e1" : "⛔ | Ooops! L'utente non ha quel ruolo.",
+            "af" : "Ruolo rimosso"
         },
         "p" : {
             "e1" : "Devi inserire un numero compreso fra 1 e 99.",

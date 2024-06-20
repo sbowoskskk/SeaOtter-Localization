@@ -173,7 +173,9 @@
             "e4" : "That user exists in this server.",
             "e5" : "That user doesn't exist.", 
             "e6" : "That user is already banned from the server.",
-            "e7" : "That user already has a pending ban."
+            "e7" : "That user already has a pending ban.",
+            "af" : "User banned",
+            "paf" : "Pending made"
         },
         "k" : {
             "e1" : "That user doesn't exist in this server.",
@@ -184,7 +186,8 @@
             "mk" : "moderator",
             "f" : "has been kicked from the discord server",
             "kl" : "Has kicked",
-            "e2" : "An error occurred while processing the kick."
+            "e2" : "An error occurred while processing the kick.",
+            "af" : "User Kicked"
         },
         "ti" : {
             "e1" : "this is not a support ticket"
@@ -210,7 +213,8 @@
             "t" : "to",
             "i" : "has been renamed",
             "l" : "Has renamed",
-            "d" : "You were renamed"  
+            "d" : "You were renamed",
+            "af" : "User renamed"
         },
         "ra" : {
             "r" : " role",
@@ -219,13 +223,15 @@
             "l" : "Has given",
             "d" : "You were given",
             "e1" : "I can't assign/remove this role because my highest role is under the selected role.",
-            "e2" : "⛔ | Whoops! This user already has this role."
+            "e2" : "⛔ | Whoops! This user already has this role.",
+            "af" : "Role assigned"
         },
         "rr" : {
             "r" : "has been removed",
             "f" : "from",
             "y" : "Your",
-            "e1" : "⛔ | Whoops! This user doesn't have this role yet."
+            "e1" : "⛔ | Whoops! This user doesn't have this role yet.",
+            "af" : "Role removed"
         },
         "p" : {
             "e1" : "You need to input a number between 1 and 99.",
