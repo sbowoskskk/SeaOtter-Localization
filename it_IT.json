@@ -76,6 +76,7 @@
             "po": "Guasto parziale del sistema",
             "pso" : "Guasto Parziale del servizio",
             "sum": "Servizio in manutenzione",
+            "pds" : "Servizio parzialmente degradato",
             "mo": "Grave guasto del sistema",
             "mso": "Grave interruzione del servizio"
         }

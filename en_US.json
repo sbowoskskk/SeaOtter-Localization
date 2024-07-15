@@ -76,6 +76,7 @@
             "po": "Partial System Outage",
             "pso" : "Partial Service Outage",
             "sum": "Service Under Maintenance",
+            "pds" : "Partially degraded Service",
             "mo": "Major System Outage",
             "mso": "Major Service Outage"
         }
