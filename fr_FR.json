@@ -76,7 +76,7 @@
             "po": "Panne partielle du système",
             "pso" : "Panne partielle du système",
             "sum": "Service en maintenance",
-            "pds" : "Partially degraded Service",
+            "pds" : "Service partiellement dégradé",
             "mo": "Panne majeure du système",
             "mso": "Panne majeure du service"
         }
