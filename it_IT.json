@@ -240,30 +240,30 @@
             "e2" : "Si è verificato un errore per cancellare i messaggi!",
             "f1" : "Ho cancellato ",
             "f2" : " messaggi."
-        },
-        "a" : {
-            "m1" : "Gennaio",
-            "m2" : "Febbraio",
-            "m3" : "Marzo",
-            "m4" : "Aprile",
-            "m5" : "Maggio",
-            "m6" : "Giugno",
-            "m7" : "Luglio",
-            "m8" : "Agosto",
-            "m9" : "Settembre",
-            "m10" : "Ottobre",
-            "m11" : "Novembre",
-            "m12" : "Dicembre"
-        },
-        "c" : {
-            "t" : "Top 10",
-            "v" : "vergini",
-            "d" : "di",
-            "ta" : "Top 10 vergini",
-            "va" : "di tutti i tempi",
-            "p" : "Playtime",
-            "n" : "Nessun vergine di",
-            "f" : "trovato"
         }
+    },
+    "a" : {
+        "m1" : "Gennaio",
+        "m2" : "Febbraio",
+        "m3" : "Marzo",
+        "m4" : "Aprile",
+        "m5" : "Maggio",
+        "m6" : "Giugno",
+        "m7" : "Luglio",
+        "m8" : "Agosto",
+        "m9" : "Settembre",
+        "m10" : "Ottobre",
+        "m11" : "Novembre",
+        "m12" : "Dicembre"
+    },
+    "c" : {
+        "t" : "Top 10",
+        "v" : "vergini",
+        "d" : "di",
+        "ta" : "Top 10 vergini",
+        "va" : "di tutti i tempi",
+        "p" : "Playtime",
+        "n" : "Nessun vergine di",
+        "f" : "trovato"
     }
 }

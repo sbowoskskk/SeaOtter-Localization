@@ -240,30 +240,30 @@
             "e2" : "There was an error trying to delete messages in this channel!",
             "f1" : "Successfully deleted ",
             "f2" : " messages."
-        },
-        "a" : {
-            "m1" : "January",
-            "m2" : "February",
-            "m3" : "March",
-            "m4" : "April",
-            "m5" : "May",
-            "m6" : "June",
-            "m7" : "July",
-            "m8" : "August",
-            "m9" : "September",
-            "m10" : "October",
-            "m11" : "November",
-            "m12" : "December"
-        },
-        "c" : {
-            "t" : "'s top 10",
-            "v" : "virgins",
-            "d" : "",
-            "ta" : "Top 10 all time",
-            "va" : "virgins",
-            "p" : "Playtime",
-            "n" : "no",
-            "f" : "found"
         }
+    },
+    "a" : {
+        "m1" : "January",
+        "m2" : "February",
+        "m3" : "March",
+        "m4" : "April",
+        "m5" : "May",
+        "m6" : "June",
+        "m7" : "July",
+        "m8" : "August",
+        "m9" : "September",
+        "m10" : "October",
+        "m11" : "November",
+        "m12" : "December"
+    },
+    "c" : {
+        "t" : "'s top 10",
+        "v" : "virgins",
+        "d" : "",
+        "ta" : "Top 10 all time",
+        "va" : "virgins",
+        "p" : "Playtime",
+        "n" : "no",
+        "f" : "found"
     }
 }
