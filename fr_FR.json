@@ -1,6 +1,6 @@
 {
-    "lang": "fr_FR",
-    "cfg": {
+    "lang" : "fr_FR",
+    "cfg" : {
         "na" : "Oups, vous n'avez pas la permission requise. (ADMINISTRATEUR)",
         "nfa" : "Ce salon n'a pas encore de fonctionnalité.",
         "cfr" : "Les fonctionnalités du salon ont été supprimées avec succès dans",
@@ -55,10 +55,10 @@
         "mrm" : "Moyen",
         "mrh" : "Élevé",
         "pf" : "Cette fonctionnalité sera disponible dans les prochaines versions.",
-        "lc": "La langue utilisée pour ce serveur est désormais le français.",
+        "lc" : "La langue utilisée pour ce serveur est désormais le français.",
         "sbsa" : "SkullBoard activé avec succès sur",
         "vcsa" : "Rôle de chat vocal défini sur",
-        "vrm" : "configurez d'abord le rôle \"vérifié\": exécutez /config-roles et sélectionnez 'rôle vérifié' comme fonction",
+        "vrm" : "configurez d'abord le rôle \"vérifié\" : exécutez /config-roles et sélectionnez 'rôle vérifié' comme fonction",
         "vct" : "Vérifiez",
         "vc1" : "Cliquez sur le bouton ci-dessous pour lier votre compte CnR à votre compte Discord. Une fois cela fait, vous recevrez le rôle",
         "vc2" : ".",
@@ -66,20 +66,20 @@
         "vsa" : "embed de vérification activé dans",
         "vrsa" : "rôle de vérification défini sur"
     },
-    "st": {
-        "t": "État des serveurs Cops and Robbers V",
-        "p": "Joueurs",
-        "pq": "File d'attente",
-        "ss": "Maximum",
-        "cs": "État CFX.re",
-        "fs": {
-            "ao": "Tous les systèmes sont opérationnels",
-            "po": "Panne partielle du système",
+    "st" : {
+        "t" : "État des serveurs Cops and Robbers V",
+        "p" : "Joueurs",
+        "pq" : "File d'attente",
+        "ss" : "Maximum",
+        "cs" : "État CFX.re",
+        "fs" : {
+            "ao" : "Tous les systèmes sont opérationnels",
+            "po" : "Panne partielle du système",
             "pso" : "Panne partielle du système",
-            "sum": "Service en maintenance",
+            "sum" : "Service en maintenance",
             "pds" : "Service partiellement dégradé",
-            "mo": "Panne majeure du système",
-            "mso": "Panne majeure du service"
+            "mo" : "Panne majeure du système",
+            "mso" : "Panne majeure du service"
         }
     },
     "cnrp" : {
@@ -87,8 +87,8 @@
         "t2" : "en ligne",
         "nop1" : "pas de",
         "nop2" : "en ligne pour le moment",
-        "j": "s'est connecté sur",
-        "l": "s'est déconnecté du",
+        "j" : "s'est connecté sur",
+        "l" : "s'est déconnecté du",
         "o" : "ou",
         "a" : "et",
         "m" : "plus",
@@ -101,43 +101,43 @@
         "spm" : "Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
         "nn" : "Le prochain numéro est",
         "dtc" : "a supprimé son décompte de",
-        "efr": "Je ne peux pas attribuer le rôle d'échec à cet utilisateur car son rôle est supérieur au mien. Veuillez placer mon rôle en haut pour que je fonctionne mieux"
+        "efr" : "Je ne peux pas attribuer le rôle d'échec à cet utilisateur car son rôle est supérieur au mien. Veuillez placer mon rôle en haut pour que je fonctionne mieux"
     },
-    "lev": {
-        "jlu": "vient de monter de niveau",
-        "la": "Niveau atteint",
-        "l": "Niveau",
-        "nl": "Niveau suivant",
-        "nli": "Prochain niveau dans",
-        "ftr": "Consultez votre niveau à tout moment en utilisant /userinfo ou /lb pour voir le classement",
+    "lev" : {
+        "jlu" : "vient de monter de niveau",
+        "la" : "Niveau atteint",
+        "l" : "Niveau",
+        "nl" : "Niveau suivant",
+        "nli" : "Prochain niveau dans",
+        "ftr" : "Consultez votre niveau à tout moment en utilisant /userinfo ou /lb pour voir le classement",
         "t10" : "Top 10 utilisateurs par niveau",
         "unk" : "Oops, je ne sais pas qui est cet utilisateur."
     },
-    "logs": {
-        "jts": "A rejoint le serveur",
-        "lts": "A quitté le serveur",
-        "dm": "Message supprimé",
-        "c": "Contenu",
-        "nc": "Pas de contenu",
-        "a": "Pièce jointe",
-        "ad": "Une pièce jointe a été supprimée",
-        "nad": "Aucune pièce jointe supprimée",
-        "eam": "Message édité",
-        "gtm": "Aller au message",
+    "logs" : {
+        "jts" : "A rejoint le serveur",
+        "lts" : "A quitté le serveur",
+        "dm" : "Message supprimé",
+        "c" : "Contenu",
+        "nc" : "Pas de contenu",
+        "a" : "Pièce jointe",
+        "ad" : "Une pièce jointe a été supprimée",
+        "nad" : "Aucune pièce jointe supprimée",
+        "eam" : "Message édité",
+        "gtm" : "Aller au message",
         "bj" : "Merci de m'avoir invité sur votre serveur !",
         "br" : "Merci de m'avoir réinvité sur votre serveur !"
     },
-    "int": {
-        "s": "Support",
-        "nop": "⛔ | Oups! Cette commande n'existe pas ou vous n'avez pas les permissions pour cela!",
-        "tfc": "Merci de nous avoir contacté",
-        "swr": "sera bientôt avec vous pour traiter ce ticket.\nVeuillez décrire votre problème ici et soyez patient.",
-        "swor": "Veuillez mentionner le rôle en charge de gérer le ticket afin de résoudre vos problèmes dans les plus brefs délais",
-        "tc": "Fermer le ticket",
-        "co": "Confirmer",
-        "ca": "Annuler",
-        "fb": "Un nouveau ticket a été créé. Veuillez vérifier",
-        "cl": "Merci de nous avoir contacté. Si vous avez d'autres problèmes, n'hésitez pas à ouvrir un autre ticket.",
+    "int" : {
+        "s" : "Support",
+        "nop" : "⛔ | Oups! Cette commande n'existe pas ou vous n'avez pas les permissions pour cela!",
+        "tfc" : "Merci de nous avoir contacté",
+        "swr" : "sera bientôt avec vous pour traiter ce ticket.\nVeuillez décrire votre problème ici et soyez patient.",
+        "swor" : "Veuillez mentionner le rôle en charge de gérer le ticket afin de résoudre vos problèmes dans les plus brefs délais",
+        "tc" : "Fermer le ticket",
+        "co" : "Confirmer",
+        "ca" : "Annuler",
+        "fb" : "Un nouveau ticket a été créé. Veuillez vérifier",
+        "cl" : "Merci de nous avoir contacté. Si vous avez d'autres problèmes, n'hésitez pas à ouvrir un autre ticket.",
         "tcd" : "Ticket fermeé",
         "ter" : "**Erreur**: Il semble que ce ne soit pas le salon du support.\nSupprimez le message ci-dessus et exécutez la commande /config-channel pour selectionner le salon du support.",
         "nm1" : "Je n'ai pas pu trouver de correspondance entre votre compte Discord et votre compte CnR. Une insertion manuelle a été demandée, veuillez réessayer plus tard.",
@@ -194,45 +194,45 @@
         "ti" : {
             "e1" : "il n'est pas un support ticket"
         },
-        "l": {
-            "i": "a été verrouillé",
-            "c": "Ce salon a été verrouillé 🔒",
-            "l": "A verrouillé",
-            "e1": "⛔ | Oups! Vous ne pouvez pas verrouiller ce salon.",
-            "e2": "Une erreur s'est produite lors du verrouillage du salon."
+        "l" : {
+            "i" : "a été verrouillé",
+            "c" : "Ce salon a été verrouillé 🔒",
+            "l" : "A verrouillé",
+            "e1" : "⛔ | Oups! Vous ne pouvez pas verrouiller ce salon.",
+            "e2" : "Une erreur s'est produite lors du verrouillage du salon."
         },
-        "u": {
-            "i": "a été déverrouillé",
-            "c": "Ce salon a été déverrouillé 🔓",
-            "l": "A déverrouillé",
-            "e1": "⛔ | Oups! Vous ne pouvez pas déverrouiller ce salon.",
-            "e2": "Une erreur s'est produite lors du déverrouillage du salon."
+        "u" : {
+            "i" : "a été déverrouillé",
+            "c" : "Ce salon a été déverrouillé 🔓",
+            "l" : "A déverrouillé",
+            "e1" : "⛔ | Oups! Vous ne pouvez pas déverrouiller ce salon.",
+            "e2" : "Une erreur s'est produite lors du déverrouillage du salon."
         },
-        "n": {
-            "e1": "l'utilisateur a déjà ce nom.",
-            "e2": "❌ | Une erreur s'est produite lors du renommage de l'utilisateur.",
-            "f": "de",
-            "t": "à",
-            "i": "a été renommé",
-            "l": "A renommé",
-            "d": "Vous avez été renommé",
+        "n" : {
+            "e1" : "l'utilisateur a déjà ce nom.",
+            "e2" : "❌ | Une erreur s'est produite lors du renommage de l'utilisateur.",
+            "f" : "de",
+            "t" : "à",
+            "i" : "a été renommé",
+            "l" : "A renommé",
+            "d" : "Vous avez été renommé",
             "af" : "User renamed"
         },
-        "ra": {
-            "r": " rôle",
-            "t": "le",
-            "i": "a reçu",
-            "l": "A donné",
-            "d": "Vous avez reçu",
-            "e1": "Je ne peux pas assigner/retirer ce rôle car mon rôle le plus élevé est inférieur au rôle sélectionné.",
-            "e2": "⛔ | Oups! Cet utilisateur a déjà ce rôle.",
+        "ra" : {
+            "r" : " rôle",
+            "t" : "le",
+            "i" : "a reçu",
+            "l" : "A donné",
+            "d" : "Vous avez reçu",
+            "e1" : "Je ne peux pas assigner/retirer ce rôle car mon rôle le plus élevé est inférieur au rôle sélectionné.",
+            "e2" : "⛔ | Oups! Cet utilisateur a déjà ce rôle.",
             "af" : "Role assigned"
         },
-        "rr": {
-            "r": "a été retiré",
-            "f": "de",
-            "y": "Votre",
-            "e1": "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle.",
+        "rr" : {
+            "r" : "a été retiré",
+            "f" : "de",
+            "y" : "Votre",
+            "e1" : "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle.",
             "af" : "Role removed"
         },
         "p" : {
@@ -240,6 +240,30 @@
             "e2" : "There was an error trying to delete messages in this channel!",
             "f1" : "Successfully deleted ",
             "f2" : " messages."
-        }        
+        },
+        "a" : {
+            "m1" : "Janvier",
+            "m2" : "Février",
+            "m3" : "Mars",
+            "m4" : "Avril",
+            "m5" : "Mai",
+            "m6" : "Juin",
+            "m7" : "Juillet",
+            "m8" : "Août",
+            "m9" : "Septembre",
+            "m10" : "Octobre",
+            "m11" : "Novembre",
+            "m12" : "Décembre"
+        },
+        "c" : {
+            "t" : "Top 10",
+            "v" : "virgins",
+            "d" : "du",
+            "ta" : "Top 10 all time",
+            "va" : "virgins",
+            "p" : "Playtime",
+            "n" : "no",
+            "f" : "found"
+        }
     }
 }

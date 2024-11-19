@@ -1,6 +1,6 @@
 {
-    "lang": "zn_HANT",
-    "cfg": {
+    "lang" : "zn_HANT",
+    "cfg" : {
         "na" : "Oops, you don't have the required Permissions. (ADMINISTRATOR)",
         "nfa" : "This channel has no features already.",
         "cfr" : "Channel features were successfully removed on",
@@ -55,7 +55,7 @@
         "mrm" : "Medium",
         "mrh" : "High",
         "pf" : "This feature will be available in future releases.",
-        "lc": "The language of this server is now english.",
+        "lc" : "The language of this server is now english.",
         "sbsa" : "SkullBoard succesfully activated on",
         "vcsa" : "voice chat role set to",
         "vrm" : "configure the verified role first: run /config-roles and select 'vefified role' as function",
@@ -66,20 +66,20 @@
         "vsa" : "succesfully enabled verification channel on",
         "vrsa" : "verified role set to"
     },
-    "st": {
-        "t": "CnR V & FiveM Servers Status",
-        "p": "Players",
-        "pq": "Players In Queue",
-        "ss": "Servers Slots",
-        "cs": "Status CFX.re",
-        "fs": {
-            "ao": "All Systems Operational",
-            "po": "Partial System Outage",
+    "st" : {
+        "t" : "CnR V & FiveM Servers Status",
+        "p" : "Players",
+        "pq" : "Players In Queue",
+        "ss" : "Servers Slots",
+        "cs" : "Status CFX.re",
+        "fs" : {
+            "ao" : "All Systems Operational",
+            "po" : "Partial System Outage",
             "pso" : "Partial Service Outage",
-            "sum": "Service Under Maintenance",
+            "sum" : "Service Under Maintenance",
             "pds" : "Partially degraded Service",
-            "mo": "Major System Outage",
-            "mso": "Major Service Outage"
+            "mo" : "Major System Outage",
+            "mso" : "Major Service Outage"
         }
     },
     "cnrp" : {
@@ -101,7 +101,7 @@
         "spm" : "The next number is 1. (You cannot count two numbers in a row)",
         "nn" : "The next number is",
         "dtc" : "deleted their count of",
-        "efr": "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better"
+        "efr" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better"
     },
     "lev" : {
         "jlu" : "just leveled up",
@@ -201,7 +201,7 @@
             "e1" : "⛔ | Whoops! You can't lock this channel.",
             "e2" : "An error occurred while locking the channel."
         },
-        "u": {
+        "u" : {
             "i" : "has been unlocked",
             "c" : "This channel has been unlocked 🔓",
             "l" : "Has unlocked",
@@ -240,6 +240,30 @@
             "e2" : "There was an error trying to delete messages in this channel!",
             "f1" : "Successfully deleted ",
             "f2" : " messages."
+        },
+        "a" : {
+            "m1" : "January",
+            "m2" : "February",
+            "m3" : "March",
+            "m4" : "April",
+            "m5" : "May",
+            "m6" : "June",
+            "m7" : "July",
+            "m8" : "August",
+            "m9" : "September",
+            "m10" : "October",
+            "m11" : "November",
+            "m12" : "December"
+        },
+        "c" : {
+            "t" : "'s top 10",
+            "v" : "virgins",
+            "d" : "",
+            "ta" : "Top 10 all time",
+            "va" : "virgins",
+            "p" : "Playtime",
+            "n" : "no",
+            "f" : "found"
         }
     }
 }

@@ -1,6 +1,6 @@
 {
-    "lang": "it_IT",
-    "cfg": {
+    "lang" : "it_IT",
+    "cfg" : {
         "na" : "Ops, non hai le autorizzazioni richieste. (devi essere amministratore per poter configurare il bot).",
         "nfa" : "Questo canale già non ha alcuna funzionalità.",
         "cfr" : "Tutte le funzionalità sono state rimosse da",
@@ -55,10 +55,10 @@
         "mrm" : "**Medio**",
         "mrh" : "**Alto**",
         "pf" : "Questa funzionalità sarà disponibile nelle prossime versioni.",
-        "lc": "La lingua del bot è adesso l'Italiano.",
+        "lc" : "La lingua del bot è adesso l'Italiano.",
         "sbsa" : "SkullBoard attivata in",
         "vcsa" : "ruolo \"in chat vocale\" settato su",
-        "vrm" : "configura prima il ruolo \"verificato\": esegui /config-roles e seleziona 'vefified role' come function",
+        "vrm" : "configura prima il ruolo \"verificato\" : esegui /config-roles e seleziona 'vefified role' come function",
         "vct" : "Verificati",
         "vc1" : "Clicca il bottone qui sotto per linkare il tuo account CnR con il tuo account Discord. Una volta fatto, riceverai il ruolo",
         "vc2" : ".",
@@ -66,20 +66,20 @@
         "vsa" : "embed di verifica attivato in",
         "vrsa" : "ruolo di verifica settato su"
     },
-    "st": {
-        "t": "Stato dei Server CnR V & FiveM",
-        "p": "Giocatori",
-        "pq": "Giocatori in attesa",
-        "ss": "Tetto giocatori",
-        "cs": "Stato CFX.re",
-        "fs": {
-            "ao": "Tutti i sistemi sono operativi",
-            "po": "Guasto parziale del sistema",
+    "st" : {
+        "t" : "Stato dei Server CnR V & FiveM",
+        "p" : "Giocatori",
+        "pq" : "Giocatori in attesa",
+        "ss" : "Tetto giocatori",
+        "cs" : "Stato CFX.re",
+        "fs" : {
+            "ao" : "Tutti i sistemi sono operativi",
+            "po" : "Guasto parziale del sistema",
             "pso" : "Guasto Parziale del servizio",
-            "sum": "Servizio in manutenzione",
+            "sum" : "Servizio in manutenzione",
             "pds" : "Servizio parzialmente degradato",
-            "mo": "Grave guasto del sistema",
-            "mso": "Grave interruzione del servizio"
+            "mo" : "Grave guasto del sistema",
+            "mso" : "Grave interruzione del servizio"
         }
     },
     "cnrp" : {
@@ -101,43 +101,43 @@
         "spm" : "Il prossimo numero è 1. (Non puoi contare due numeri di seguito)",
         "nn" : "Il prossimo numero è",
         "dtc" : "ha cancellato il suo conto di",
-        "efr": "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio"
+        "efr" : "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio"
     },
-    "lev": {
-        "jlu": "È appena salitə di livello",
-        "la": "Livello raggiunto",
-        "l": "Livello",
-        "nl": "Prossimo Livello",
-        "nli": "Prossimo Livello tra",
-        "ftr": "Controlla il tuo livello in qualsiasi momento usando /userinfo, o /lb per visualizzare la classifica",
+    "lev" : {
+        "jlu" : "È appena salitə di livello",
+        "la" : "Livello raggiunto",
+        "l" : "Livello",
+        "nl" : "Prossimo Livello",
+        "nli" : "Prossimo Livello tra",
+        "ftr" : "Controlla il tuo livello in qualsiasi momento usando /userinfo, o /lb per visualizzare la classifica",
         "t10" : "10 migliori utenti per livello",
         "unk" : "Ops, non conosco quest'utente."
     },
-    "logs": {
-        "jts": "È entratə nel server",
-        "lts": "È uscitə dal server",
-        "dm": "Messaggio eliminato",
-        "c": "Contenuto",
-        "nc": "Nessun contenuto",
-        "a": "Allegato",
-        "ad": "Un allegato è stato eliminato",
-        "nad": "Nessun allegato eliminato",
-        "eam": "Messaggio modificato",
-        "gtm": "Vai al messaggio",
+    "logs" : {
+        "jts" : "È entratə nel server",
+        "lts" : "È uscitə dal server",
+        "dm" : "Messaggio eliminato",
+        "c" : "Contenuto",
+        "nc" : "Nessun contenuto",
+        "a" : "Allegato",
+        "ad" : "Un allegato è stato eliminato",
+        "nad" : "Nessun allegato eliminato",
+        "eam" : "Messaggio modificato",
+        "gtm" : "Vai al messaggio",
         "bj" : "Grazie di avermi invitato :D",
         "br" : "Grazie di avermi invitato a tornare :D"
     },
-    "int": {
-        "s": "Supporto",
-        "nop": "⛔ | Ooops! Questo comando non esiste o non hai i permessi per usarlo!",
-        "tfc": "Grazie per averci contattati",
-        "swr": "sarà presto con te per risolvere questo ticket.\nDescrivi il tuo problema qui nell'attesa.",
-        "swor": "Per favore menziona il ruolo responsabile per gestire il ticket al fine di risolvere i tuoi problemi nel minor tempo possibile",
-        "tc": "Chiudi il ticket",
-        "co": "Conferma",
-        "ca": "Annulla",
-        "fb": "È stato creato il tuo ticket e sei statə menzionatə. Per favore controlla.",
-        "cl": "Grazie per averci contattati. Se hai altri problemi, non esitare ad aprire un nuovo ticket.",
+    "int" : {
+        "s" : "Supporto",
+        "nop" : "⛔ | Ooops! Questo comando non esiste o non hai i permessi per usarlo!",
+        "tfc" : "Grazie per averci contattati",
+        "swr" : "sarà presto con te per risolvere questo ticket.\nDescrivi il tuo problema qui nell'attesa.",
+        "swor" : "Per favore menziona il ruolo responsabile per gestire il ticket al fine di risolvere i tuoi problemi nel minor tempo possibile",
+        "tc" : "Chiudi il ticket",
+        "co" : "Conferma",
+        "ca" : "Annulla",
+        "fb" : "È stato creato il tuo ticket e sei statə menzionatə. Per favore controlla.",
+        "cl" : "Grazie per averci contattati. Se hai altri problemi, non esitare ad aprire un nuovo ticket.",
         "tcd" : "Ticket chiuso",
         "ter" : "**Errore**: questo non è il canale di supporto.\nPer favore, cancellare l'embed qui in alto e eseguire /config-channel per ristabilire il canale di supporto.",
         "nm1" : "Non sono riuscito a trovare un abbinamento tra il tuo account discord e il tuo account di CnR. é stato richiesto un inserimento manuale, per favore rirpova più tardi",
@@ -201,7 +201,7 @@
             "e1" : "⛔ | Ooops! Non puoi bloccare questo canale.",
             "e2" : "Si è verificato un errore per bloccare il canale."
         },
-        "u": {
+        "u" : {
             "i" : "è stato sbloccato",
             "c" : "Questo canale è stato sbloccato 🔓",
             "l" : "Ha sbloccato",
@@ -240,6 +240,30 @@
             "e2" : "Si è verificato un errore per cancellare i messaggi!",
             "f1" : "Ho cancellato ",
             "f2" : " messaggi."
+        },
+        "a" : {
+            "m1" : "Gennaio",
+            "m2" : "Febbraio",
+            "m3" : "Marzo",
+            "m4" : "Aprile",
+            "m5" : "Maggio",
+            "m6" : "Giugno",
+            "m7" : "Luglio",
+            "m8" : "Agosto",
+            "m9" : "Settembre",
+            "m10" : "Ottobre",
+            "m11" : "Novembre",
+            "m12" : "Dicembre"
+        },
+        "c" : {
+            "t" : "Top 10",
+            "v" : "vergini",
+            "d" : "di",
+            "ta" : "Top 10 vergini",
+            "va" : "di tutti i tempi",
+            "p" : "Playtime",
+            "n" : "Nessun vergine di",
+            "f" : "trovato"
         }
     }
 }
