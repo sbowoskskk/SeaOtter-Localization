@@ -1,4 +1,5 @@
 {
+    "lang": "en_US",
     "cfg": {
         "na" : "Oops, you don't have the required Permissions. (ADMINISTRATOR)",
         "nfa" : "This channel has no features already.",

@@ -1,4 +1,5 @@
 {
+    "lang": "fr_FR",
     "cfg": {
         "na" : "Oups, vous n'avez pas la permission requise. (ADMINISTRATEUR)",
         "nfa" : "Ce salon n'a pas encore de fonctionnalité.",

@@ -1,4 +1,5 @@
 {
+    "lang": "it_IT",
     "cfg": {
         "na" : "Ops, non hai le autorizzazioni richieste. (devi essere amministratore per poter configurare il bot).",
         "nfa" : "Questo canale già non ha alcuna funzionalità.",
