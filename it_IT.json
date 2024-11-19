@@ -256,7 +256,7 @@
         "m11" : "Novembre",
         "m12" : "Dicembre"
     },
-    "c" : {
+    "b" : {
         "t" : "Top 10",
         "v" : "vergini",
         "d" : "di",
@@ -264,6 +264,13 @@
         "va" : "di tutti i tempi",
         "p" : "Playtime",
         "n" : "Nessun vergine di",
-        "f" : "trovato"
+        "f" : "trovato",
+        "a" : "Risultati dell'alt check per",
+        "b1" : "Match affidabili al ",
+        "b2" : "",
+        "c1" : "nessun match al ",
+        "c2" : " trovato",
+        "b" : "sono stati trovati altri risultati a non possono essere mostrati",
+        "e1" : "Utente non trovato nel database"
     }
 }

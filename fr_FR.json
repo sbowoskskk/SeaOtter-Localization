@@ -256,7 +256,7 @@
         "m11" : "Novembre",
         "m12" : "Décembre"
     },
-    "c" : {
+    "b" : {
         "t" : "Top 10",
         "v" : "virgins",
         "d" : "du",
@@ -264,6 +264,13 @@
         "va" : "virgins",
         "p" : "Playtime",
         "n" : "no",
-        "f" : "found"
+        "f" : "found",
+        "a" : "Alt Check Results for",
+        "b1" : "",
+        "b2" : " reliable matches",
+        "c1" : "no ",
+        "c2" : " matches found",
+        "b" : "more matches found that can't be displayed",
+        "e1" : "User not found in the primary database"
     }
 }
