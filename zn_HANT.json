@@ -258,10 +258,10 @@
     },
     "b" : {
         "t" : "'s top 10",
-        "v" : "virgins",
+        "v" : "players by playtime",
         "d" : "",
         "ta" : "Top 10 all time",
-        "va" : "virgins",
+        "va" : "players by playtime",
         "p" : "Playtime",
         "n" : "no",
         "f" : "found",
