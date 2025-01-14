@@ -156,6 +156,7 @@
         "nr" : "No reason provided",
         "ds" : " Discord server.",
         "fds" : "from the Discord server",
+        "e0" : "Error 50001 - I don't have admin permissions. Ask management to give me the required permissions.",
         "e1" : "I can't interact with bots.",
         "e2" : "You need an higher role to finalize this action towards this member!",
         "e3" : "This interaction failed because the target has an higher role than mine.",

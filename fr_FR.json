@@ -156,6 +156,7 @@
         "nr" : "Pas de raison",
         "ds" : " serveur Discord.",
         "fds" : "du serveur Discord",
+        "e0" : "Erreur 50001 - je n'ai pas les droits d'administrateur. Demandez à la direction de me donner les permissions nécessaires.",
         "e1" : "Je ne peux pas interagir avec les bots.",
         "e2" : "Vous avez besoin d'un rôle supérieur pour finaliser cette action envers ce membre!",
         "e3" : "Cette interaction a échoué car la cible a un rôle supérieur au mien.",
