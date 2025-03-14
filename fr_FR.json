@@ -252,11 +252,11 @@
         "m12" : "Décembre"
     },
     "b" : {
-        "ta" : "Top 10 all time {filter} players by playtime",
-        "tcm" : "{month}'s top 10 {filter} players by playtime",
+        "ta" : "Top 10 all time {filter}players by playtime",
+        "tcm" : "{month}'s top 10 {filter}players by playtime",
         "p" : "Playtime",
         "nf" : "No {filter}players found",
-        "tlm" : "{month} {year}'s top 10 {filter} players by playtime",
-        "tly" : "{year}'s top 10 {filter} players by playtime"
+        "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
+        "tly" : "{year}'s top 10 {filter}players by playtime"
     }
 }

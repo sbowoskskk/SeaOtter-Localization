@@ -253,11 +253,11 @@
         "m12" : "Dicembre"
     },
     "b" : {
-        "ta" : "Top 10 vergini {filter} di tutti i tempi",
-        "tcm" : "Top 10 vergini {filter} di {month}",
+        "ta" : "Top 10 vergini {filter}di tutti i tempi",
+        "tcm" : "Top 10 vergini {filter}di {month}",
         "p" : "Playtime",
         "nf" : "Nessun vergine {filter}trovato",
-        "tlm" : "Top 10 vergini {filter} di {month} {year}",
-        "tly" : "Top 10 vergini {filter} del {year}"
+        "tlm" : "Top 10 vergini {filter}di {month} {year}",
+        "tly" : "Top 10 vergini {filter}del {year}"
     }
 }
