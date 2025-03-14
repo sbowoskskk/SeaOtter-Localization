@@ -80,8 +80,8 @@
         }
     },
     "cnrp" : {
-        "t" : "Giocatori {filer} online",
-        "nop" : "Nessun {filer} è attualmente online",
+        "t" : "Giocatori {filter} online",
+        "nop" : "Nessun {filter} è attualmente online",
         "j" : "è entratə in",
         "l" : "è uscitə da",
         "o" : "o",
