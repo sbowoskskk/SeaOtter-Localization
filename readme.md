@@ -64,20 +64,20 @@ Variables like `{server}` or `{channel}` must:
 
 ❌ **Bad** (English):  
 ```json
-"nf" : "No {filter} players found",  # Changed variable space
+"nf" : "No {filter} players found",  Changed variable space
 ```
 ❌ **Bad** (English):  
 ```json
-"nf" : "No {filter }players found",  # Changed variable space
+"nf" : "No {filter }players found",  Changed variable space
 ```
 
 ❌ **Bad** (English):  
 ```json
-"nf" : "No {filteur}players found",  # Changed variable name
+"nf" : "No {filteur}players found",  Changed variable name
 ```
 ❌ **Bad** (English):  
 ```json
-"nf" : "No {filter}players found in {server}",  # Added an undefined variable
+"nf" : "No {filter}players found in {server}",  Added an undefined variable
 ```
 
 ### Special Formatting
