@@ -8,7 +8,7 @@
         "faa" : "Questa funzionalità è già disponibile in {channel}.\nPuoi eseguire /config-channels per rimuovere le funzionalità precedenti da {channel} e riprovare.",
         "pa1" : "CnR live pack attivato in {channel}. Mostrerò tutti i giocatori i cui nomi o uid conterranno {filter} e terrò traccia di chi entra ed esce in {thread}",
         "pa2" : "CnR stats pack attivato im {channel}. Mostrerò il tempo di gioco alltime e del mese corrente per {filter} e pubblicherò gli storici mensilmente su {thread}",
-        "atp": "tutti i giocatori",
+        "atp" : "tutti i giocatori",
         "sc" : "Centro assistenza",
         "scd" : "Per aprire un ticket, clicca sul pulsante qui sotto e attendi un membro dello staff.",
         "scb" : "Apri un nuovo ticket 📩",
@@ -56,19 +56,17 @@
         "vcb" : "Verificati ✅",
         "vsa" : "Embed di verifica attivato in {channel}.",
         "vrsa" : "Ruolo di verifica settato su {role}.",
-        "v1": "Attivato l'embed del tempo di gioco alltime su {channel}.\nMostrerò il tempo di gioco complessivo per tutti i giocatori il cui nome contiene {filter}.",
-        "vf1": "Attivato l'embed del tempo di gioco alltime su {channel}.\nMostrerò il tempo di gioco complessivo per tutti i giocatori",
-        "v2": "Attivato l'embed del tempo di gioco del mese corrente su {channel}.\nMostrerò il tempo di gioco del mese corrente per tutti i giocatori il cui nome contiene {filter}.",
-        "vf2": "Attivato l'embed del tempo di gioco del mese corrente su {channel}.\nMostrerò il tempo di gioco del mese corrente per tutti i giocatori",
-        "v3": "Attivato l'embed del tempo di gioco del mese precedente su {channel}.\nMostrerò il tempo di gioco del mese precedente per tutti i giocatori il cui nome contiene {filter}.",
-        "vf3": "Attivato l'embed del tempo di gioco del mese precedente su {channel}.\nMostrerò il tempo di gioco del mese scorso per tutti i giocatori"
+        "v1" : "Attivato l'embed del tempo di gioco alltime su {channel}.\nMostrerò il tempo di gioco complessivo per tutti i giocatori il cui nome contiene {filter}.",
+        "vf1" : "Attivato l'embed del tempo di gioco alltime su {channel}.\nMostrerò il tempo di gioco complessivo per tutti i giocatori",
+        "v2" : "Attivato l'embed del tempo di gioco del mese corrente su {channel}.\nMostrerò il tempo di gioco del mese corrente per tutti i giocatori il cui nome contiene {filter}.",
+        "vf2" : "Attivato l'embed del tempo di gioco del mese corrente su {channel}.\nMostrerò il tempo di gioco del mese corrente per tutti i giocatori",
+        "v3" : "Attivato l'embed del tempo di gioco del mese precedente su {channel}.\nMostrerò il tempo di gioco del mese precedente per tutti i giocatori il cui nome contiene {filter}.",
+        "vf3" : "Attivato l'embed del tempo di gioco del mese precedente su {channel}.\nMostrerò il tempo di gioco del mese scorso per tutti i giocatori"
     },
     "st" : {
         "t" : "Stato dei Server CnR V & FiveM",
-        "p" : "Giocatori",
-        "pq" : "Giocatori in attesa",
-        "ss" : "Tetto giocatori",
-        "cs" : "Stato CFX.re",
+        "d" : "Giocatori: {players}\nGiocatori in coda: {pqueue}\nTetto giocatori: {slots}\nRiavvio in: {restart}\n[Connttiti a {server} {flag}]({url})",
+        "cs" : "{status} - [Stato CFX.re](https://status.cfx.re/)",
         "fs" : {
             "ao" : "Tutti i sistemi sono operativi",
             "po" : "Guasto parziale del sistema",
@@ -89,24 +87,34 @@
         "m" : "altri",
         "u" : "ulteriori"
     },
-    "counting" : {
-        "ecdnf" : "Errore: Dati di conteggio non trovati",
-        "nr" : "NUOVO RECORD",
-        "ria" : "HA ROVINATO IL CONTEGGIO A",
-        "spm" : "Il prossimo numero è 1. (Non puoi contare due numeri di seguito)",
-        "nn" : "Il prossimo numero è",
-        "dtc" : "ha cancellato il suo conto di",
-        "efr" : "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio"
+    "skb" : {
+        "e1" : "Errore: messaggio non riconosciuto.",
+        "e2" : "Prima devi configurare la skullboard. Esegui il comando `/config-channels`.",
+        "e3" : "errore sconosciuto.",
+        "jtm" : "Vai al messaggio",
+        "fb" : "messaggio inviato a {channel}",
+        "l" : "Ha messo un messaggio in skullboard"
     },
-    "lev" : {
-        "jlu" : "È appena salitə di livello",
-        "la" : "Livello raggiunto",
-        "l" : "Livello",
-        "nl" : "Prossimo Livello",
-        "nli" : "Prossimo Livello tra",
-        "ftr" : "Controlla il tuo livello in qualsiasi momento usando /userinfo, o /lb per visualizzare la classifica",
-        "t10" : "10 migliori utenti per livello",
-        "unk" : "Ops, non conosco quest'utente."
+    "ctg" : {
+        "e1" : "Errore: Dati di conteggio non trovati.",
+        "e2" : "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio",
+        "r" : "NUOVO RECORD **{record}**!\n\n{mention} HA ROVINATO IL CONTEGGIO A **{count}**!! Il prossimo numero è 1. {reason}",
+        "nr" : "{mention} HA ROVINATO IL CONTEGGIO A **{count}**!! Il prossimo numero è 1. {reason}",
+        "rs1" : "(Non puoi contare due numeri di seguito).",
+        "n" : "Il prossimo numero è {count}.",
+        "d" : "{mention} ha cancellato il suo conto di `{count}`. Il prossimo numero è {next}."
+    },
+    "lv" : {
+        "lut" : "🎉 {mention} È appena salitə di livello.",
+        "la1" : "🏅 Livello raggiunto:",
+        "la2" : "» Livello: {level}",
+        "nl1" : "⭐ Prossimo Livello",
+        "nl2" : "» Prossimo Livello tra {points} punti",
+        "ftr" : "Controlla il tuo livello in qualsiasi momento usando /lb per visualizzare la classifica.",
+        "lbt" : "Top 10 migliori utenti per livello",
+        "lb1" : "#{position} - {name}",
+        "lb2" : "{mention} - Livello: {level} - XP: {points} punti",
+        "lb3" : "#{position} - {mention} - Livello: {level} - XP: {points} punti"
     },
     "logs" : {
         "jts" : "È entratə nel server",
@@ -120,7 +128,8 @@
         "eam" : "Messaggio modificato",
         "gtm" : "Vai al messaggio",
         "bj" : "Grazie di avermi invitato :D",
-        "br" : "Grazie di avermi invitato a tornare :D"
+        "br" : "Grazie di avermi invitato a tornare :D",
+        "nm" : "Nessun match trovato"
     },
     "int" : {
         "s" : "Supporto",
@@ -255,7 +264,7 @@
     "b" : {
         "ta" : "Top 10 vergini {filter}di tutti i tempi",
         "tcm" : "Top 10 vergini {filter}di {month}",
-        "p" : "Playtime",
+        "p" : "Playtime: {value}",
         "nf" : "Nessun vergine {filter}trovato",
         "tlm" : "Top 10 vergini {filter}di {month} {year}",
         "tly" : "Top 10 vergini {filter}del {year}"

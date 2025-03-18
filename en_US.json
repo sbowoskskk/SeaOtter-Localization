@@ -8,7 +8,7 @@
         "faa" : "This feature is already available in {channel}.\nYou can run /config-channels to remove the previous features off {channel} and try again.",
         "pa1" : "Successfully activated CnR live pack on {channel}. I will show the servers' status, all the online players whose names or uids contains {filter} and I wil also keep track of who's joining an leaving in {thread}.",
         "pa2" : "Successfully activated CnR stats pack on {channel}. I will show the alltime and current month playtime for {filter} and I will post historic data monthly to {thread}.",
-        "atp": "all the players",
+        "atp" : "all the players",
         "sc" : "Support center",
         "scd" : "To open a ticket, click the button down below and wait for a staff member.",
         "scb" : "Open a new ticket 📩",
@@ -65,10 +65,8 @@
     },
     "st" : {
         "t" : "CnR V & FiveM Servers Status",
-        "p" : "Players",
-        "pq" : "Players In Queue",
-        "ss" : "Servers Slots",
-        "cs" : "Status CFX.re",
+        "d" : "Players: {players}\nPlayers In Queue: {pqueue}\nServers Slots: {slots}\nRestart in: {restart}\n[Connect {server} {flag}]({url})",
+        "cs" : "{status} - [Status CFX.re](https://status.cfx.re/)",
         "fs" : {
             "ao" : "All Systems Operational",
             "po" : "Partial System Outage",
@@ -89,24 +87,34 @@
         "m" : "more",
         "u" : "other"
     },
-    "counting" : {
-        "ecdnf" : "Error: Counting data not found",
-        "nr" : "NEW RECORD",
-        "ria" : "RUINED IT AT",
-        "spm" : "The next number is 1. (You cannot count two numbers in a row)",
-        "nn" : "The next number is",
-        "dtc" : "deleted their count of",
-        "efr" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better"
+    "skb" : {
+        "e1" : "Invalid message.",
+        "e2" : "Setup the skullboard first. Run `/config-channels`.",
+        "e3" : "An unknown error occoured.",
+        "jtm" : "Jump to message",
+        "fb" : "message sent to {channel}",
+        "l" : "Has skulled a message"
     },
-    "lev" : {
-        "jlu" : "just leveled up",
-        "la" : "Level achieved",
-        "l" : "Level",
-        "nl" : "Next Level",
-        "nli" : "Next Level in",
-        "ftr" : "Check your level at anytime by using /userinfo or /lb to view the leaderboard",
-        "t10" : "Top 10 users by level",
-        "unk" : "Oops, I don't know who this user is."
+    "ctg" : {
+        "e1" : "Error: Counting data not found.",
+        "e2" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better",
+        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
+        "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
+        "rs1" : "(You cannot count two numbers in a row).",
+        "n" : "The next number is {count}.",
+        "d" : "{mention} deleted their count of `{count}`. The next number is {next}."
+    },
+    "lv" : {
+        "lut" : "🎉 {mention} just leveled up.",
+        "la1" : "🏅 Level achieved:",
+        "la2" : "» Level {level}",
+        "nl1" : "⭐ Next Level",
+        "nl2" : "» Next Level in {points} points",
+        "ftr" : "Check your level at anytime by using `/lb` to view the leaderboard",
+        "lbt" : "Top 10 users by level",
+        "lb1" : "#{position} - {name}",
+        "lb2" : "{mention} - Level: {level} - XP: {points} points",
+        "lb3" : "#{position} - {mention} - Level: {level} - XP: {points} points"
     },
     "logs" : {
         "jts" : "Joined the server",
@@ -120,7 +128,8 @@
         "eam" : "Edited a message",
         "gtm" : "Go to message",
         "bj" : "Thank you for inviting me to your server!",
-        "br" : "Thank you for re-inviting me to your server!"
+        "br" : "Thank you for re-inviting me to your server!",
+        "nm" : "No match found"
     },
     "int" : {
         "s" : "Support",
@@ -255,7 +264,7 @@
     "b" : {
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
-        "p" : "Playtime",
+        "p" : "Playtime: {value}",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
         "tly" : "{year}'s top 10 {filter}players by playtime"

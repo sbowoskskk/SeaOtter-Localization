@@ -65,10 +65,8 @@
     },
     "st" : {
         "t" : "État des serveurs Cops and Robbers V",
-        "p" : "Joueurs",
-        "pq" : "File d'attente",
-        "ss" : "Maximum",
-        "cs" : "État CFX.re",
+        "d" : "Joueurs: {players}\nFile d'attente: {pqueue}\nMaximum: {slots}\nRestart in: {restart}\n[Connect {server} {flag}]({url})",
+        "cs" : "{status} - [État CFX.re](https://status.cfx.re/)",
         "fs" : {
             "ao" : "Tous les systèmes sont opérationnels",
             "po" : "Panne partielle du système",
@@ -89,24 +87,34 @@
         "m" : "plus",
         "u" : "autre"
     },
-    "counting" : {
-        "ecdnf" : "Erreur : Données de comptage non trouvées",
-        "nr" : "NOUVEAU RECORD",
-        "ria" : "RATÉ À",
-        "spm" : "Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
-        "nn" : "Le prochain numéro est",
-        "dtc" : "a supprimé son décompte de",
-        "efr" : "Je ne peux pas attribuer le rôle d'échec à cet utilisateur car son rôle est supérieur au mien. Veuillez placer mon rôle en haut pour que je fonctionne mieux"
+    "skb" : {
+        "e1" : "Invalid message.",
+        "e2" : "Setup the skullboard first. Run `/config-channels`.",
+        "e3" : "An unknown error occoured.",
+        "jtm" : "Jump to message",
+        "fb" : "message sent to {channel}",
+        "l" : "Has skulled a message"
     },
-    "lev" : {
-        "jlu" : "vient de monter de niveau",
-        "la" : "Niveau atteint",
-        "l" : "Niveau",
-        "nl" : "Niveau suivant",
-        "nli" : "Prochain niveau dans",
-        "ftr" : "Consultez votre niveau à tout moment en utilisant /userinfo ou /lb pour voir le classement",
-        "t10" : "Top 10 utilisateurs par niveau",
-        "unk" : "Oops, je ne sais pas qui est cet utilisateur."
+    "ctg" : {
+        "e1" : "Erreur : Données de comptage non trouvées",
+        "e2" : "Je ne peux pas attribuer le rôle d'échec à cet utilisateur car son rôle est supérieur au mien. Veuillez placer mon rôle en haut pour que je fonctionne mieux",
+        "r" : "NOUVEAU RECORD **{record}**!\n\n{mention} RATÉ À **{count}**!! Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
+        "nr" : "{mention} RATÉ À **{count}**!! Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
+        "rs1" : "(Vous ne pouvez pas compter deux numéros d'affilée)",
+        "n" : "Le prochain numéro est {count}.",
+        "d" : "{mention} a supprimé son décompte de `{count}`. Le prochain numéro est {next}."
+    },
+    "lv" : {
+        "lut" : "🎉 {mention} vient de monter de niveau",
+        "la1" : "🏅 Niveau atteint :",
+        "la2" : "» Niveau {level}",
+        "nl1" : "⭐ Niveau suivant",
+        "nl2" : "» Prochain niveau dans {points} points",
+        "ftr" : "Consultez votre niveau à tout moment en utilisant /lb pour voir le classement",
+        "lbt" : "Top 10 utilisateurs par niveau",
+        "lb1" : "#{position} - {name}",
+        "lb2" : "{mention} - Niveau : {level} - XP : {points} points",
+        "lb3" : "#{position} - {mention} - Niveau : {level} - XP : {points} points"
     },
     "logs" : {
         "jts" : "A rejoint le serveur",
@@ -120,7 +128,8 @@
         "eam" : "Message édité",
         "gtm" : "Aller au message",
         "bj" : "Merci de m'avoir invité sur votre serveur !",
-        "br" : "Merci de m'avoir réinvité sur votre serveur !"
+        "br" : "Merci de m'avoir réinvité sur votre serveur !",
+        "nm" : "no match found"
     },
     "int" : {
         "s" : "Support",
@@ -255,7 +264,7 @@
     "b" : {
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
-        "p" : "Playtime",
+        "p" : "Playtime: {value}",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
         "tly" : "{year}'s top 10 {filter}players by playtime"
