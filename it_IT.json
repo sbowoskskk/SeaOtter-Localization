@@ -126,7 +126,7 @@
         "mad" : "Sono stati eliminati {number} allegati",
         "nad" : "Nessun allegato eliminato",
         "em" : "Messaggio modificato",
-        "emd" : "Canale: {channel}\nUtente: {user}\nVecchio messaggio: {oldcontent}\n-------------------------------------------------------\nNuovo Messaggio{newcontent}",
+        "emd" : "Canale: {channel}\nUtente: {user}\nVecchio messaggio:\n{oldcontent}\n-------------------------------------------------------\nNuovo Messaggio:\n{newcontent}",
         "gtm" : "Vai al messaggio",
         "bj" : "Grazie di avermi invitato :D",
         "br" : "Grazie di avermi invitato a tornare :D",

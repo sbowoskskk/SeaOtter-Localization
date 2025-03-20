@@ -126,7 +126,7 @@
         "mad" : "{number} pièces jointes ont été supprimées",
         "nad" : "Aucune pièce jointe supprimée",
         "em" : "Message édité",
-        "emd" : "Chaîne : {channel}\nUtilisateur : {user}\nAncien contenu : {oldcontent}\n----------------------------------------\nNouveau contenu{newcontent}",
+        "emd" : "Chaîne : {channel}\nUtilisateur : {user}\nAncien contenu :\n{oldcontent}\n----------------------------------------\nNouveau contenu :\n{newcontent}",
         "gtm" : "Aller au message",
         "bj" : "Merci de m'avoir invité sur votre serveur !",
         "br" : "Merci de m'avoir réinvité sur votre serveur !",

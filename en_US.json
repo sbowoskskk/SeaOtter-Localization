@@ -126,7 +126,7 @@
         "mad" : "{number} attachments have been deleted",
         "nad" : "No attachment deleted",
         "em" : "Edited a message",
-        "emd" : "Channel: {channel}\nUser: {user}\nOld content: {oldcontent}\n----------------------------------------\nNew content{newcontent}",
+        "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}",
         "gtm" : "Go to message",
         "bj" : "Thank you for inviting me to your server!",
         "br" : "Thank you for re-inviting me to your server!",
