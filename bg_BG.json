@@ -116,20 +116,21 @@
         "lb2" : "{mention} - Ниво: {level} - XP: {points} точки",
         "lb3" : "#{position} - {mention} - Ниво: {level} - XP: {points} точки"
     },
-    "logs" : {
-        "jts" : "Joined the server",
-        "lts" : "Left  the server",
-        "dm" : "Deleted message",
-        "c" : "Content",
-        "nc" : "No Content",
-        "a" : "Attachment",
-        "ad" : "An attachment has been deleted",
-        "nad" : "No attachment deleted",
-        "eam" : "Edited a message",
-        "gtm" : "Go to message",
-        "bj" : "Thank you for inviting me to your server!",
-        "br" : "Thank you for re-inviting me to your server!",
-        "nm" : "No match found"
+    "logs": {
+        "jts": "{mention} се присъедини към сървъра",
+        "lts" : "{mention} напусна сървъра",
+        "dm" : "Изтрито съобщение",
+        "dmd" : "Канал: {channel}\nПотребител: {user}\nСъдържание: {content}\nПрикачени файлове: {attachment}",
+        "nc" : "Няма съдържание",
+        "ad": "Прикачен файл е изтрит",
+        "mad" : "{number} прикачени файлове са изтрити",
+        "nad": "Няма изтрит прикачен файл",
+        "em" : "Редактира съобщение",
+        "emd" : "Канал: {channel}\nПотребител: {user}\nСтаро съдържание: {oldcontent}\n----------------------------------------\nНово съдържание{newcontent}",
+        "gtm" : "Отидете на съобщение",
+        "bj" : "Благодаря ви, че ме поканихте във вашия сървър!",
+        "br" : "Благодаря ви, че ме поканихте повторно във вашия сървър!",
+        "nm" : "Няма намерено съответствие"
     },
     "int" : {
         "s" : "Support",
