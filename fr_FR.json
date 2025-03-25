@@ -133,11 +133,13 @@
         "nm" : "no match found"
     },
     "int" : {
-        "s" : "Support",
+        "s" : "{user} - Support",
         "nop" : "⛔ | Oups! Cette commande n'existe pas ou vous n'avez pas les permissions pour cela!",
-        "tfc" : "Merci de nous avoir contacté",
-        "swr" : "sera bientôt avec vous pour traiter ce ticket.\nVeuillez décrire votre problème ici et soyez patient.",
-        "swor" : "Veuillez mentionner le rôle en charge de gérer le ticket afin de résoudre vos problèmes dans les plus brefs délais",
+        "td1" : "Merci de nous avoir contactés, {user}.\n{roles} sera bientôt avec vous pour traiter ce ticket.\nVeuillez décrire votre problème ici et soyez patient.",
+        "td2" : "Merci de nous avoir contactés, {user}.\nVeuillez mentionner le rôle en charge de gérer le ticket afin de résoudre vos problèmes dans les plus brefs délais.",
+        "or" : "ou",
+        "a" : "Un",
+        "any" : "N'importe lequel",
         "tc" : "Fermer le ticket",
         "co" : "Confirmer",
         "ca" : "Annuler",
@@ -148,13 +150,15 @@
         "nm1" : "Je n'ai pas pu trouver de correspondance entre votre compte Discord et votre compte CnR. Une insertion manuelle a été demandée, veuillez réessayer plus tard.",
         "nm2" : "L'insertion manuelle de votre nom ingame est encore en attente, veuillez réessayer plus tard.",
         "nvr" : "Le rôle 'vérifié' a été supprimé, veuillez informer les administrateurs du serveur que le rôle doit être reconfiguré.",
-        "iv" : "Vous avez été vérifié(e) avec le nom ",
-        "iv2" : "si la correspondance n'est pas exacte, veuillez ouvrir un ticket sur <https://is.gd/SeaOtterSupport>",
-        "eo" : "Je ne peux pas vous renommer ou vous attribuer des rôles car vous êtes le propriétaire du serveur. J'aurais changé votre nom en ",
+        "iv" : "Vous avez été vérifié avec succès comme `{name}`.\nSi la correspondance n'est pas exacte, veuillez ouvrir un ticket privé dans <https://is.gd/SeaOtterSupport>",
+        "eo" : "Je ne peux pas vous renommer ou vous attribuer des rôles car vous êtes le propriétaire du serveur. J'aurais changé votre nom en `{name}`",
         "er" : "Je ne peux pas vous renommer ou vous attribuer des rôles car votre rôle est plus élevé que le mien. Veuillez informer les administrateurs du serveur que mon rôle doit être plus élevé pour fonctionner correctement.",
         "eu" : "Une erreur inattendue s'est produite. Veuillez réessayer plus tard.",
-        "mv" : "A été vérifié(e).\nAncien nom :",
-        "mv2" : "\n Nouveau nom:"
+        "mv" : "{user} a été vérifié avec succès.\nAncien nom : {oldname}\nNouveau nom : {newname}",
+        "e1" : "❌ Je n'ai pas pu créer de fil de discussion. Veuillez vérifier si j'ai les autorisations 'Gérer les fils de discussion' et 'Envoyer des messages' pour ce canal.",
+        "e2" : "❌ Configuration d'intégration non valide.",
+        "sa" : "Réaction du crâne ajoutée.\nTotal : `{count}`.",
+        "sr" : "Réaction du crâne supprimée.\nTotal : `{count}`."
     },
     "m" : {
         "r" : "Raison",

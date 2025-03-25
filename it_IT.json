@@ -133,11 +133,13 @@
         "nm" : "Nessun match trovato"
     },
     "int" : {
-        "s" : "Supporto",
+        "s" : "{user} - Supporto",
         "nop" : "⛔ | Ooops! Questo comando non esiste o non hai i permessi per usarlo!",
-        "tfc" : "Grazie per averci contattati",
-        "swr" : "sarà presto con te per risolvere questo ticket.\nDescrivi il tuo problema qui nell'attesa.",
-        "swor" : "Per favore menziona il ruolo responsabile per gestire il ticket al fine di risolvere i tuoi problemi nel minor tempo possibile",
+        "td1": "Grazie per averci contattati, {user}.\n{roles} sarà presto con te per risolvere questo ticket.\nDescrivi il tuo problema qui nell'attesa.",
+        "td2": "Grazie per averci contattati, {user}.\nPer favore menziona il ruolo responsabile per gestire il ticket al fine di risolvere i tuoi problemi nel minor tempo possibile.",
+        "or" : "o",
+        "a" : "Un",
+        "any": "Qualcuno tra",
         "tc" : "Chiudi il ticket",
         "co" : "Conferma",
         "ca" : "Annulla",
@@ -148,13 +150,15 @@
         "nm1" : "Non sono riuscito a trovare un abbinamento tra il tuo account discord e il tuo account di CnR. é stato richiesto un inserimento manuale, per favore rirpova più tardi",
         "nm2" : "L'nserimento manuale del tuo ingame name é encora pending, per favore riprova più tardi",
         "nvr" : "il ruolo 'verificato' è stato rimosso, per favore, informa i gestori del server che il ruolo va riconfigurato.",
-        "iv" : "Sei statə verificatə con il nome ",
-        "iv2" : "se l'abbinamento non dovesse essere accurato, per favore apri un ticket in <https://is.gd/SeaOtterSupport>",
-        "eo" : "Non posso rinominarti o aggiungerti ruoli perchè sei il proprietario del server. Avrei cambiato il tuo nome in",
+        "iv": "Sei statə verificatə con il nome `{name}`.\nSe l'abbinamento non dovesse essere accurato, per favore apri un ticket in <https://is.gd/SeaOtterSupport>",
+        "eo" : "Non posso rinominarti o aggiungerti ruoli perchè sei il proprietario del server. Avrei cambiato il tuo nome in `{name}`",
         "er" : "Non posso rinominarti o aggiungerti ruoli perchè il tuo ruolo è più alto del mio. Per favore, informa i gestori del server che il mio ruolo deve stare più in alto per poter funzionare correttamente",
         "eu" : "Si è verificato un errore imprevisto. Per favore riprova più tardi.",
-        "mv" : "Si è verificatə.\nVecchio nome:",
-        "mv2" : "\nNuovo nome:"
+        "mv": "{user} Si è verificatə.\nVecchio nome: {oldname}\nNuovo nome: {newname}",
+        "e1": "❌ Non sono riuscito a creare un thread di supporto. Controlla se ho i permessi 'Gestisci thread' e 'Invia messaggi' per questo canale.",
+        "e2": "❌ Configurazione embed non valida.",
+        "sa": "Aggiunta reazione del teschio.\nTotale: `{count}`.",
+        "sr": "Reazione del teschio rimossa.\nTotale: `{count}`."
     },
     "m" : {
         "r" : "Motivo",
