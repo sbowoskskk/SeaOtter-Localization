@@ -40,7 +40,7 @@
         "gsa" : "Succesfully implemented gaymeter feature feature on {channel}.",
         "sre" : "This role had no moderation features. Maybe try to use /config-roles if you wish to remove eventual non-moderation features off {role} (ticket handlers count as such).",
         "arsr" : "All role features were successfully removed on {role}.",
-        "srsu" : "Succesfully updated {role} with moderation rank: {rank}",
+        "srsu" : "Succesfully updated {role} with moderation rank: {rank}.",
         "samr" : "Succesfully added moderation permissions on {role}.\nRank: {rank}.",
         "mrj" : "Joke",
         "mrl" : "Low",
@@ -49,7 +49,7 @@
         "pf" : "This feature will be available in future releases.",
         "lc" : "The language of this server is now english.",
         "sbsa" : "SkullBoard succesfully activated on {channel}.",
-        "vcsa" : "Voice chat role set to {role}",
+        "vcsa" : "Voice chat role set to {role}.",
         "vrm" : "Configure the verified role first: run /config-roles and select 'vefified role' as function",
         "vct" : "Verify",
         "vcd" : "Click the button below to link your CnR Account to your Discord account. This will give you the {role} role and access to the CnR related channels.",
@@ -92,14 +92,14 @@
         "e2" : "Setup the skullboard first. Run `/config-channels`.",
         "e3" : "An unknown error occoured.",
         "jtm" : "Jump to message",
-        "fb" : "message sent to {channel}",
+        "fb" : "message sent to {channel}.",
         "l" : "Has skulled a message"
     },
     "ctg" : {
         "e1" : "Error: Counting data not found.",
         "e2" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better",
-        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
-        "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
+        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
+        "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
         "rs1" : "(You cannot count two numbers in a row).",
         "n" : "The next number is {count}.",
         "d" : "{mention} deleted their count of `{count}`. The next number is {next}."
@@ -107,12 +107,12 @@
     "lv" : {
         "lut" : "🎉 {mention} just leveled up.",
         "la1" : "🏅 Level achieved:",
-        "la2" : "» Level {level}",
+        "la2" : "» Level {level}.",
         "nl1" : "⭐ Next Level",
         "nl2" : "» Next Level in {points} points",
         "ftr" : "Check your level at anytime by using `/lb` to view the leaderboard",
         "lbt" : "Top 10 users by level",
-        "lb1" : "#{position} - {name}",
+        "lb1" : "#{position} - {name}.",
         "lb2" : "{mention} - Level: {level} - XP: {points} points",
         "lb3" : "#{position} - {mention} - Level: {level} - XP: {points} points"
     },
@@ -120,13 +120,13 @@
         "jts" : "{mention} joined the server",
         "lts" : "{mention} left the server",
         "dm" : "Deleted message",
-        "dmd" : "Channel: {channel}\nUser: {user}\nContent: {content}\nAttachments: {attachment}",
+        "dmd" : "Channel: {channel}\nUser: {user}\nContent: {content}\nAttachments: {attachment}.",
         "nc" : "No Content",
         "ad" : "An attachment has been deleted",
         "mad" : "{number} attachments have been deleted",
         "nad" : "No attachment deleted",
         "em" : "Edited a message",
-        "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}",
+        "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}.",
         "gtm" : "Go to message",
         "bj" : "Thank you for inviting me to your server!",
         "br" : "Thank you for re-inviting me to your server!",
@@ -154,102 +154,94 @@
         "eo" : "I can't rename you because you're the server owner. your match would be `{name}`",
         "er" : "I can't verify you because your highest role is higher than mine. Please let the server management put my role at a higher position",
         "eu" : "this interaction failed for an unknown reason. Please try again later.",
-        "mv" : "{user} has succesfully verified.\nOld name: {oldname}\nNew name: {newname}",
+        "mv" : "{user} has succesfully verified.\nOld name: {oldname}\nNew name: {newname}.",
         "e1" : "❌ I couldn't create a support thread. Please check if I have 'Manage Threads' and 'Send Messages' permissions for this channel.",
         "e2" : "❌ Invalid embed configuration.",
         "sa" : "Skull reaction added.\nTotal: `{count}`.",
         "sr" : "Skull reaction removed.\nTotal: `{count}`."
     },
     "m" : {
-        "r" : "Reason",
+        "rr" : "\n**Reason**: {reason}.",
         "nr" : "No reason provided",
-        "ds" : " Discord server.",
-        "fds" : "from the Discord server",
         "e0" : "Error 50001 - I don't have admin permissions. Ask management to give me the required permissions.",
         "e1" : "I can't interact with bots.",
         "e2" : "You need an higher role to finalize this action towards this member!",
         "e3" : "This interaction failed because the target has an higher role than mine.",
         "e4" : "⛔ | You do not have permission to use this command.",
         "b" : {
-            "yf" : "You have been indefinitely banned from the",
-            "bl" : "Has indefinitely banned",
+            "yf" : "You have been indefinitely banned from the {guild} Discord server.\n**Reason**: {reason}.",
+            "bl" : "Has indefinitely banned {user} from the Discord server.\n **Reason**: {reason}.",
             "ps" : "pending ban successful",
-            "pf" : "will be indefinitely banned from the Discord server as soon as he joins it",
-            "pml" : "Has made a pending ban on",
-            "pml2" : "they will be banned as soon as they join",
+            "pf" : "{user} will be indefinitely banned from the Discord server as soon as he joins it.\n**Reason**: {reason}.",
+            "pml" : "Has made a pending ban on {user}, they will be banned as soon as they join.\n**Reason**: {reason}.",
             "e1" : "Please specify a correct id.",
             "e2" : "That user didn't exist.",
             "e3" : "Please run /offline-ban.",
             "dp" : "You can't ban my daddy <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "has been indefinitely banned from the Discord server",
+            "cf" : "{user} has been indefinitely banned from the Discord server\n**Reason**: {reason}.",
             "e4" : "That user exists in this server.",
             "e5" : "That user doesn't exist.", 
             "e6" : "That user is already banned from the server.",
             "e7" : "That user already has a pending ban.",
-            "af" : "User banned",
-            "paf" : "Pending made"
+            "af" : "User anonimously banned.",
+            "paf" : "Pending anonimously made.",
+            "uf" : "{user} has been unbanned from the discord server.\n**Reason**: {reason}",
+            "ul" : "Has unbanned {user} from the Discord server.\n **Reason**: {reason}.",
+            "yu" : "Your ban on the {guild} Discord server was lifted.\n**Reason**: {reason}.",
+            "e8" : "user {user} is not banned.",
+            "au" : "User anonimously unbanned."
         },
         "k" : {
             "e1" : "That user doesn't exist in this server.",
-            "yf" : "You have been kicked from the",
-            "r" : "Rejoin at",
-            "l" : "this link",
-            "dk" : "My daddy has been kicked from the discord server <a:ugh_smh:1174125047133241436> ",
-            "mk" : "moderator",
-            "f" : "has been kicked from the discord server",
-            "kl" : "Has kicked",
-            "e2" : "An error occurred while processing the kick.",
-            "af" : "User Kicked"
+            "yf" : "You have been kicked from the {guild} Discord server.\n**Reason**: {reason}.",
+            "dk" : "My daddy has been kicked from the discord server <a:ugh_smh:1174125047133241436>\n**Reason**: {reason}.\n**Moderator**: Biggest clown on earth<:Pepe_clown:1154372249919438889>.",
+            "f" : "{user} has been kicked from the discord server.\n **Reason**: {reason}.",
+            "kl" : "Has kicked {user} from the Discord server.\n **Reason**: {reason}.",
+            "e2" : "An unknown error occurred while processing the kick.",
+            "af" : "User anonimously Kicked"
         },
         "ti" : {
             "e1" : "this is not a support ticket"
         },
         "l" : {
-            "i" : "has been locked",
-            "c" : "This channel has been locked 🔒",
-            "l" : "Has locked",
+            "i" : "{channel} has been locked.\n**Reason**: {reason}.",
+            "c" : "This channel has been locked 🔒\n**Reason**: {reason}.",
+            "l" : "Has locked {channel}\n**Reason**: {reason}.",
             "e1" : "⛔ | Whoops! You can't lock this channel.",
             "e2" : "An error occurred while locking the channel."
         },
         "u" : {
-            "i" : "has been unlocked",
-            "c" : "This channel has been unlocked 🔓",
-            "l" : "Has unlocked",
+            "i" : "{channel} has been unlocked.\n**Reason**: {reason}.",
+            "c" : "This channel has been unlocked 🔓\n**Reason**: {reason}.",
+            "l" : "Has unlocked {channel}\n**Reason**: {reason}.",
             "e1" : "⛔ | Whoops! You can't unlock this channel.",
-            "e2" : "An error occurred while locking the channel."
+            "e2" : "An error occurred while unlocking the channel."
         },
         "n" : {
+            "f" : "{user} has been renamed from `{oldname}` to `{newname}`.",
+            "l" : "Has renamed {user} from `{oldname}` to `{newname}`.",
+            "d" : "You were renamed from `{oldname}` to `{newname}`.",
             "e1" : "user already has this name.",
             "e2" : "❌ | There was an error while renaming the user.",
-            "f" : "from",
-            "t" : "to",
-            "i" : "has been renamed",
-            "l" : "Has renamed",
-            "d" : "You were renamed",
-            "af" : "User renamed"
+            "af" : "User anonimously renamed"
         },
-        "ra" : {
-            "r" : " role",
-            "t" : "the",
-            "i" : "has received",
-            "l" : "Has given",
-            "d" : "You were given",
+        "r" : {
+            "af" : "{user} has received the {role} role.",
+            "al" : "Has given {user} the {role} role.\n**Reason**: {reason}.",
+            "ad" : "You were given the {role} role.",
+            "rf" : "{role} has been removed from {user}.",
+            "rl" : "{role} has been removed from {user}.\n**Reason**: {reason}.",
+            "rd" : "Your {role} role has been removed.",
             "e1" : "I can't assign/remove this role because my highest role is under the selected role.",
             "e2" : "⛔ | Whoops! This user already has this role.",
-            "af" : "Role assigned"
-        },
-        "rr" : {
-            "r" : "has been removed",
-            "f" : "from",
-            "y" : "Your",
-            "e1" : "⛔ | Whoops! This user doesn't have this role yet.",
-            "af" : "Role removed"
+            "e3" : "⛔ | Whoops! This user doesn't have this role yet.",
+            "af1" : "Role anonimously assigned",
+            "af2" : "Role anonimously  removed"
         },
         "p" : {
             "e1" : "You need to input a number between 1 and 99.",
             "e2" : "There was an error trying to delete messages in this channel!",
-            "f1" : "Successfully deleted ",
-            "f2" : " messages."
+            "f" : "Successfully deleted `{amount}` messages."
         }
     },
     "a" : {
@@ -269,14 +261,9 @@
     "b" : {
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
-        "p" : "Playtime: {value}",
+        "p" : "Playtime: {value}.",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
         "tly" : "{year}'s top 10 {filter}players by playtime"
-    },
-    "c" : {
-        "or" : "or",
-        "a" : "a",
-        "any" : "any"
     }
 }

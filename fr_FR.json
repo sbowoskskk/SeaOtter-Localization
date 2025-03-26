@@ -161,95 +161,87 @@
         "sr" : "Réaction du crâne supprimée.\nTotal : `{count}`."
     },
     "m" : {
-        "r" : "Raison",
-        "nr" : "Pas de raison",
-        "ds" : " serveur Discord.",
-        "fds" : "du serveur Discord",
-        "e0" : "Erreur 50001 - je n'ai pas les droits d'administrateur. Demandez à la direction de me donner les permissions nécessaires.",
+        "rr" : "\n**Raison** : {reason}.",
+        "nr" : "Aucune raison fournie",
+        "e0" : "Erreur 50001 : Je n'ai pas les autorisations d'administrateur. Veuillez demander à la direction de me les accorder.",
         "e1" : "Je ne peux pas interagir avec les bots.",
-        "e2" : "Vous avez besoin d'un rôle supérieur pour finaliser cette action envers ce membre!",
-        "e3" : "Cette interaction a échoué car la cible a un rôle supérieur au mien.",
-        "e4" : "⛔ | Vous n'avez pas la permission d'utiliser cette commande.",
+        "e2" : "Vous avez besoin d'un rôle plus élevé pour finaliser cette action envers ce membre !",
+        "e3" : "Cette interaction a échoué, car la cible a un rôle plus élevé que le mien.",
+        "e4" : "⛔ | Vous n'avez pas l'autorisation d'utiliser cette commande.",
         "b" : {
-            "yf" : "Vous avez été banni indéfiniment du",
-            "bl" : "A banni indéfiniment",
-            "ps" : "ban en attente réussi",
-            "pf" : "sera banni indéfiniment du serveur Discord dès qu'il le rejoindra",
-            "pml" : "A fait un ban en attente sur",
-            "pml2" : "ils seront bannis dès qu'ils rejoindront",
-            "e1" : "Veuillez spécifier un identifiant correct.",
-            "e2" : "Cet utilisateur n'existe pas.",
+            "yf" : "Vous avez été banni indéfiniment du serveur Discord {guild}.\n**Raison** : {reason}.",
+            "bl" : "A banni indéfiniment {user} du serveur Discord.\n **Raison** : {reason}.",
+            "ps" : "bannissement en attente réussi",
+            "pf" : "{user} sera banni indéfiniment du serveur Discord dès son arrivée.\n**Raison** : {reason}.",
+            "pml" : "A banni en attente {user} ; il sera banni dès son arrivée.\n**Raison** : {reason}.",
+            "e1" : "Veuillez indiquer un identifiant correct.",
+            "e2" : "Cet utilisateur n'existait pas.",
             "e3" : "Veuillez exécuter /offline-ban.",
-            "dp" : "Vous ne pouvez pas bannir mon papa <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "a été définitivement banni du serveur Discord",
-            "e4" : "That user exists in this server.",
-            "e5" : "That user doesn't exist.", 
-            "e6" : "That user is already banned from the server.",
-            "e7" : "That user already has a pending ban.",
-            "af" : "User banned",
-            "paf" : "Pending made"
+            "dp" : "Vous ne pouvez pas bannir mon père <a:smiling_pepe_uwu:1172250686138880020>.",
+            "cf" : "{user} a été banni indéfiniment du serveur Discord.\n**Raison** : {reason}.",
+            "e4" : "Cet utilisateur existe sur ce serveur.",
+            "e5" : "Cet utilisateur n'existe pas.",
+            "e6" : "Cet utilisateur est déjà banni du serveur.",
+            "e7" : "Cet utilisateur a déjà un bannissement en attente.",
+            "af" : "Utilisateur banni anonymement.",
+            "paf" : "En attente de bannissement anonyme.",
+            "uf" : "{user} a été débanni du serveur Discord.\n**Raison** : {reason}",
+            "ul" : "A débanni {user} du serveur Discord.\n**Raison** : {reason}.",
+            "yu" : "Votre bannissement du serveur Discord {guild} a été levé.\n**Raison** : {reason}.",
+            "e8" : "L'utilisateur {user} n'est pas banni.",
+            "au" : "Utilisateur débanni anonymement."
         },
         "k" : {
-            "e1" : "Cet utilisateur n'existe pas dans ce serveur.",
-            "yf" : "Vous avez été expulsé du",
-            "r" : "Rejoignez à",
-            "l" : "ce lien",
-            "dk" : "Mon papa a été expulsé du serveur discord <a:ugh_smh:1174125047133241436> ",
-            "mk" : "modérateur",
-            "f" : "a été expulsé du serveur discord",
-            "kl" : "A expulsé",
-            "e2" : "Une erreur s'est produite lors du traitement de l'expulsion.",
-            "af" : "User Kicked"
+            "e1" : "Cet utilisateur n'existe pas sur ce serveur.",
+            "yf" : "Vous avez été expulsé du serveur Discord {guild}.\n**Raison** : {reason}.",
+            "dk" : "Mon père a été expulsé du serveur Discord <a:ugh_smh:1174125047133241436>\n**Raison** : {reason}.\n**Modérateur** : Le plus grand clown du monde<:Pepe_clown:1154372249919438889>.",
+            "f" : "{user} a été expulsé du serveur Discord.\n **Raison** : {reason}.",
+            "kl" : "A expulsé {user} du serveur Discord.\n **Raison** : {reason}.",
+            "e2" : "Une erreur inconnue s'est produite lors du traitement du kick.",
+            "af" : "Utilisateur kické anonymement"
         },
         "ti" : {
             "e1" : "il n'est pas un support ticket"
         },
         "l" : {
-            "i" : "a été verrouillé",
-            "c" : "Ce salon a été verrouillé 🔒",
-            "l" : "A verrouillé",
-            "e1" : "⛔ | Oups! Vous ne pouvez pas verrouiller ce salon.",
-            "e2" : "Une erreur s'est produite lors du verrouillage du salon."
+            "i" : "{channel} a été verrouillé.\n**Raison** : {reason}.",
+            "c" : "Ce canal a été verrouillé 🔒\n**Raison** : {reason}.",
+            "l" : "A verrouillé {channel}\n**Raison** : {reason}.",
+            "e1" : "⛔ | Oups ! Vous ne pouvez pas verrouiller cette chaîne.",
+            "e2" : "Une erreur s'est produite lors du verrouillage de la chaîne."
         },
         "u" : {
-            "i" : "a été déverrouillé",
-            "c" : "Ce salon a été déverrouillé 🔓",
-            "l" : "A déverrouillé",
-            "e1" : "⛔ | Oups! Vous ne pouvez pas déverrouiller ce salon.",
-            "e2" : "Une erreur s'est produite lors du déverrouillage du salon."
+            "i" : "{chaîne} a été déverrouillée.\n**Raison** : {raison}.",
+            "c" : "Cette chaîne a été déverrouillée 🔓\n**Raison** : {raison}.",
+            "l" : "A déverrouillé {chaîne}\n**Raison** : {raison}.",
+            "e1" : "⛔ | Oups ! Vous ne pouvez pas déverrouiller ce canal.",
+            "e2" : "Une erreur s'est produite lors du déverrouillage du canal."
         },
         "n" : {
-            "e1" : "l'utilisateur a déjà ce nom.",
-            "e2" : "❌ | Une erreur s'est produite lors du renommage de l'utilisateur.",
-            "f" : "de",
-            "t" : "à",
-            "i" : "a été renommé",
-            "l" : "A renommé",
-            "d" : "Vous avez été renommé",
-            "af" : "User renamed"
+            "f" : "{user} a été renommé de `{oldname}` à `{newname}`.",
+            "l" : "A renommé {user} de `{oldname}` à `{newname}`.",
+            "d" : "Vous avez été renommé de `{oldname}` à `{newname}`.",
+            "e1" : "l'utilisateur porte déjà ce nom.",
+            "e2" : "❌ | Une erreur s'est produite lors du changement de nom de l'utilisateur.",
+            "af" : "Utilisateur renommé anonymement"
         },
-        "ra" : {
-            "r" : " rôle",
-            "t" : "le",
-            "i" : "a reçu",
-            "l" : "A donné",
-            "d" : "Vous avez reçu",
-            "e1" : "Je ne peux pas assigner/retirer ce rôle car mon rôle le plus élevé est inférieur au rôle sélectionné.",
-            "e2" : "⛔ | Oups! Cet utilisateur a déjà ce rôle.",
-            "af" : "Role assigned"
-        },
-        "rr" : {
-            "r" : "a été retiré",
-            "f" : "de",
-            "y" : "Votre",
-            "e1" : "⛔ | Oups! Cet utilisateur n'a pas encore ce rôle.",
-            "af" : "Role removed"
+        "r" : {
+            "af" : "{user} a reçu le rôle {role}.",
+            "al" : "A attribué à {user} le rôle {role}.\n**Raison** : {reason}.",
+            "ad" : "Le rôle {role} vous a été attribué.",
+            "rf" : "{role} a été supprimé de {user}.",
+            "rl" : "{role} a été supprimé de {user}.\n**Raison** : {reason}.",
+            "rd" : "Votre rôle {role} a été supprimé.",
+            "e1" : "Je ne peux pas attribuer/supprimer ce rôle, car mon rôle le plus élevé est inférieur au rôle sélectionné.",
+            "e2" : "⛔ | Oups ! Cet utilisateur possède déjà ce rôle.",
+            "e3" : "⛔ | Oups ! Cet utilisateur n'a pas encore ce rôle.",
+            "af1" : "Rôle attribué anonymement",
+            "af2" : "Rôle supprimé anonymement"
         },
         "p" : {
             "e1" : "You need to input a number between 1 and 99.",
             "e2" : "There was an error trying to delete messages in this channel!",
-            "f1" : "Successfully deleted ",
-            "f2" : " messages."
+            "f" : "Successfully deleted `{amount}` messages."
         }
     },
     "a" : {

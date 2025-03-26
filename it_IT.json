@@ -161,43 +161,42 @@
         "sr": "Reazione del teschio rimossa.\nTotale: `{count}`."
     },
     "m" : {
-        "r" : "Motivo",
+        "rr" : "\n**Motivo**: {reason}.",
         "nr" : "Motivo non specificato",
-        "ds" : ".",
-        "fds" : "dal server Discord",
         "e0" : "Errore 50001 - non ho i permessi di `amministratore`. Chiedi ai gestori di farmi avere i permessi per completare il comando.",
         "e1" : "Non posso interagire con i bot.",
         "e2" : "Hai bisogno di un ruolo superiore per finalizzare questa azione su quest'utente",
         "e3" : "Questa interazione è fallita perché il target ha un ruolo superiore al mio.",
         "e4" : "⛔ | Non hai i permessi necessari per usare questo comando.",
         "b" : {
-            "yf" : "Sei stato bannato permanentemente dal server",
-            "bl" : "Ha bannato permanentemente",
+            "yf" : "Sei statə bannatə permanentemente dal server {guild}.\n**Motivo**: {reason}.",
+            "bl" : "Ha bannato permanentemente {user}.\n**Motivo**: {reason}.",
             "ps" : "pending-ban riuscito",
-            "pf" : "verrà bannato permanentemente dal server Discord non appena entrerà",
-            "pml" : "Ha avviato un offline-ban per",
-            "pml2" : "ləi verrà bannatə appena entrerà nel server",
+            "pf" : "{user} verrà bannatə permanentemente dal server Discord non appena entrerà.\n**Motivo**: {reason}.",
+            "pml" : "Ha avviato un offline-ban per {user}, ləi verrà bannatə appena entrerà nel server.\n**Motivo**: {reason}.",
             "e1" : "L' ID non è corretto.",
             "e2" : "Quell'utente non esiste.",
             "e3" : "Errore. per foavore eseguire /offline-ban.",
             "dp" : "Non puoi bannare mi padre <a:smiling_pepe_uwu:1172250686138880020> ",
-            "cf" : "è stato bannato permanentemente dal server Discord",
+            "cf" : "{user} è statə bannatə permanentemente dal server Discord.\n**Motivo**: {reason}.",
             "e4" : "L'utente è nel server.",
             "e5" : "L'utente non esiste.", 
             "e6" : "l'utente è già bannatə.",
             "e7" : "C'è già un pending-ban nei confronti di quest'utente.",
             "af" : "Utente bannatə",
-            "paf" : "L'utente verrà bannatə"
+            "paf" : "L'utente verrà bannatə",
+            "uf" : "{user} è statə sbannatə.\n**Motivo**: {reason}",
+            "ul" : "Ha sbannato {user}.\n **Motivo**: {reason}.",
+            "yu" : "Il tuo ban in {guild} è stato rimosso.\n**Motivo**: {reason}.",
+            "e8" : "L'utente {user} non è bannatə.",
+            "au" : "Utente sbannatə."
         },
         "k" : {
             "e1" : "Quell'utente non esiste in questo server.",
-            "yf" : "Sei statə kickatə dal server ",
-            "r" : "Rientra",
-            "l" : "qui",
-            "dk" : "Mi padre è stato kickato <a:ugh_smh:1174125047133241436> ",
-            "mk" : "moderatore",
-            "f" : "è statə kickatə dal server discord",
-            "kl" : "Ha kickato",
+            "yf" : "Sei statə kickatə dal server {guild} .\n**Motivo**: {reason}.",
+            "dk" : "Mi padre è stato kickato <a:ugh_smh:1174125047133241436>\n**Motivo**: {reason}.\n**Moderatore**: Pagliaccio<:Pepe_clown:1154372249919438889>.",
+            "f" : "{user} è statə kickatə dal server discord.\n **Motivo**: {reason}.",
+            "kl" : "Ha kickato {user} dal server discord.\n **Motivo**: {reason}.",
             "e2" : "Si è verificato un errore durante l'elaborazione del kick.",
             "af" : "utente kickatə"
         },
@@ -205,51 +204,44 @@
             "e1" : "questo canale non è un ticket"
         },
         "l" : {
-            "i" : "è stato bloccato",
-            "c" : "Questo canale è stato bloccato 🔒",
-            "l" : "Ha bloccato",
+            "i" : "{channel} è stato bloccato.\n**Motivo**: {reason}.",
+            "c" : "Questo canale è stato bloccato 🔒\n**Motivo**: {reason}.",
+            "l" : "Ha bloccato {channel}\n**Motivo**: {reason}.",
             "e1" : "⛔ | Ooops! Non puoi bloccare questo canale.",
             "e2" : "Si è verificato un errore per bloccare il canale."
         },
         "u" : {
-            "i" : "è stato sbloccato",
-            "c" : "Questo canale è stato sbloccato 🔓",
-            "l" : "Ha sbloccato",
+            "i" : "{channel} has been unlocked.\n**Motivo**: {reason}.",
+            "c" : "Questo canale has been unlocked 🔓\n**Motivo**: {reason}.",
+            "l" : "Has unlocked {channel}\n**Motivo**: {reason}.",
             "e1" : "⛔ | Ooops! Non puoi sbloccare questo canale.",
             "e2" : "Si è verificato un errore per sbloccare il canale."
         },
         "n" : {
+            "f" : "{user} è statə rinominatə da `{oldname}` a `{newname}`.",
+            "l" : "Ha rinominato {user} da `{oldname}` a `{newname}`.",
+            "d" : "Sei statə rinominatə da `{oldname}` a `{newname}`.",
             "e1" : "L'utente ha già questo nome.",
             "e2" : "❌ | Si è verificato un errore per rinominare l'utente.",
-            "f" : "da",
-            "t" : "a",
-            "i" : "è stato rinominato",
-            "l" : "Ha rinominato",
-            "d" : "Sei statə rinominatə",
             "af" : "Utente rinominatə"
         },
-        "ra" : {
-            "r" : "",
-            "t" : "il ruolo",
-            "i" : "ha ricevuto",
-            "l" : "Ha dato a",
-            "d" : "Hai  ricevuto",
+        "r" : {
+            "af" : "{user} ha ricevuto il ruolo {role}.",
+            "al" : "Ha dato a {user} il ruolo {role}.\n**Motivo**: {reason}.",
+            "ad" : "Hai ricevuto il ruolo {role}.",
+            "rf" : "{role} è stato rimosso da {user}.",
+            "rl" : "{role} è stato rimosso da {user}.\n**Motivo**: {reason}.",
+            "rd" : "il tuo ruolo {role} è stato rimosso.",
             "e1" : "Non posso assegnare/rimuovere ruoli più alti del mio",
             "e2" : "⛔ | Ooops! l'utente ha già questo ruolo.",
-            "af" : "Ruolo assegnato"
-        },
-        "rr" : {
-            "r" : "è stato rimosso",
-            "f" : "da",
-            "y" : "Il tuo ruolo",
-            "e1" : "⛔ | Ooops! L'utente non ha quel ruolo.",
-            "af" : "Ruolo rimosso"
+            "e3" : "⛔ | Ooops! L'utente non ha quel ruolo.",
+            "af1" : "Ruolo assegnato",
+            "af2" : "Ruolo rimosso"
         },
         "p" : {
             "e1" : "Devi inserire un numero compreso fra 1 e 99.",
             "e2" : "Si è verificato un errore per cancellare i messaggi!",
-            "f1" : "Ho cancellato ",
-            "f2" : " messaggi."
+            "f" : "Ho cancellato `{amount}` messaggi."
         }
     },
     "a" : {
