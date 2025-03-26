@@ -242,6 +242,25 @@
             "e1" : "Devi inserire un numero compreso fra 1 e 99.",
             "e2" : "Si è verificato un errore per cancellare i messaggi!",
             "f" : "Ho cancellato `{amount}` messaggi."
+        },
+        "t" : {
+        "e1" : "Quell'utente non esiste in questo server.",
+        "e2" : "Inserisci una durata di timeout valida.",
+        "e3" : "La durata del timeout non può essere inferiore a 5 secondi o superiore a 27 giorni.",
+        "e4" : "Si è verificato un errore sconosciuto durante l'elaborazione del timeout.",
+        "e5" : "Si è verificato un errore sconosciuto durante la rimozione del timeout.",
+        "uf" : "Il timeout di {user} è stato aggiornato a {time}.\n**Motivo**: {reason}.",
+        "ul" : "Ha aggiornato il timeout di {user} a {time}.\n**Motivo**: {reason}.",
+        "ud" : "Il tuo timeout è stato aggiornato a {time} in {guild}.\n**Motivo**: {reason}.",
+        "sf" : "{user} è statə mutatə per {time}.\n**Motivo**: {reason}.",
+        "sl" : "Ha mutato {user} ({user.id}) per {time}.\n**Motivo**: {reason}.",
+        "sd" : "Sei statə mutatə per {time} in {guild}.\n**Motivo**: {reason}.",
+        "dp" : "Non puoi mutare mio padre<:Goofy_laugh_2:1232240149933330523>",
+        "af" : "L'utente è statə mutstə in modo anonimo",
+        "rf" : "Il timeout di {user} è stato rimosso.\n**Motivo**: {reason}.",
+        "rl" : "Ha rimosso il timeout di {user}.\n**Motivo**: {reason}.",
+        "rd" : "Il tuo timeout è stato rimosso.\n**Motivo**: {motivo}.",
+        "au" : "Timeout rimosso in modo anonimo."
         }
     },
     "a" : {

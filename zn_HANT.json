@@ -242,6 +242,25 @@
             "e1" : "You need to input a number between 1 and 99.",
             "e2" : "There was an error trying to delete messages in this channel!",
             "f" : "Successfully deleted `{amount}` messages."
+        },
+        "t" : {
+            "e1" : "That user doesn't exist in this server.",
+            "e2" : "Please provide a valid timeout duration.",
+            "e3" : "Timeout duration cannot be less than 5 seconds or more than 27 days.",
+            "e4" : "An unknown error occurred while processing the timeout.",
+            "e5" : "An unknown error occurred while removing the timeout.",
+            "uf" : "{user}'s timeout has been updated to {time}.\n**Reason**: {reason}.",
+            "ul" : "Has updated {user}'s timeout to {time}.\n**Reason**: {reason}.",
+            "ud" : "Your timeout has been updated to {time} in {guild}.\n**Reason**: {reason}.",
+            "sf" : "{user} was timed out for {time}.\n**Reason**: {reason}.",
+            "sl" : "Has timed out {user} ({user.id}) for {time}.\n**Reason**: {reason}.",
+            "sd" : "You were timed out for {time} in {guild}.\n**Reason**: {reason}.",
+            "dp" : "You can't mute my daddy<:Goofy_laugh_2:1232240149933330523>",
+            "af" : "User anonimously timed out",
+            "rf" : "{user}'s timeout was removed.\n**Reason**: {reason}.",
+            "rl" : "Has removed {user}'s timeout.\n**Reason**: {reason}.",
+            "rd" : "Your timeout has been removed.\n**Reason**: {reason}.",
+            "au" : "Timeout anonimously removed."
         }
     },
     "a" : {
