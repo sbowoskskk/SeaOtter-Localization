@@ -219,7 +219,7 @@
         },
         "n" : {
             "f" : "{user} has been renamed from `{oldname}` to `{newname}`.",
-            "l" : "Has renamed {user} from `{oldname}` to `{newname}`.",
+            "l" : "Has renamed {user} from `{oldname}` to `{newname}`.\n**Reason**: {reason}.",
             "d" : "You were renamed from `{oldname}` to `{newname}`.",
             "e1" : "user already has this name.",
             "e2" : "❌ | There was an error while renaming the user.",

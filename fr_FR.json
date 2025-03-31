@@ -219,7 +219,7 @@
         },
         "n" : {
             "f" : "{user} a été renommé de `{oldname}` à `{newname}`.",
-            "l" : "A renommé {user} de `{oldname}` à `{newname}`.",
+            "l" : "A renommé {user} de `{oldname}` à `{newname}`.\n**Raison** : {reason}.",
             "d" : "Vous avez été renommé de `{oldname}` à `{newname}`.",
             "e1" : "l'utilisateur porte déjà ce nom.",
             "e2" : "❌ | Une erreur s'est produite lors du changement de nom de l'utilisateur.",

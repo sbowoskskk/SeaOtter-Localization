@@ -219,7 +219,7 @@
         },
         "n" : {
             "f" : "{user} è statə rinominatə da `{oldname}` a `{newname}`.",
-            "l" : "Ha rinominato {user} da `{oldname}` a `{newname}`.",
+            "l" : "Ha rinominato {user} da `{oldname}` a `{newname}`.\n**Motivo**: {reason}.",
             "d" : "Sei statə rinominatə da `{oldname}` a `{newname}`.",
             "e1" : "L'utente ha già questo nome.",
             "e2" : "❌ | Si è verificato un errore per rinominare l'utente.",
