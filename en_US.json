@@ -93,7 +93,8 @@
         "e3" : "An unknown error occoured.",
         "jtm" : "Jump to message",
         "fb" : "message sent to {channel}.",
-        "l" : "Has skulled a message"
+        "l" : "Has skulled a message",
+        "o" : "User opted out of message_content and can't have his messages sent to the skullboard."
     },
     "ctg" : {
         "e1" : "Error: Counting data not found.",
@@ -102,7 +103,8 @@
         "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
         "rs1" : "(You cannot count two numbers in a row).",
         "n" : "The next number is {count}.",
-        "d" : "{mention} deleted their count of `{count}`. The next number is {next}."
+        "d" : "{mention} deleted their count of `{count}`. The next number is {next}.",
+        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
     },
     "lv" : {
         "lut" : "🎉 {mention} just leveled up.",
@@ -128,6 +130,7 @@
         "em" : "Edited a message",
         "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}.",
         "gtm" : "Go to message",
+        "do" : "Channel: {channel}\nUser: {user}\nContent:\n-# User opted out of the message_content intent.",
         "bj" : "Thank you for inviting me to your server!",
         "br" : "Thank you for re-inviting me to your server!",
         "nm" : "No match found"
@@ -284,5 +287,19 @@
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
         "tly" : "{year}'s top 10 {filter}players by playtime"
+    },
+    "c" : {
+        "o" : {
+            "i" : "Opt-In",
+            "p" : "Partial Opt-Out",
+            "t" : "Total Opt-Out"
+        },
+        "t" : "Confirm Total Opt-Out",
+        "d" : "By choosing this option, I won't be able to read your messages' content at all, so:\n- the contents of your messages won't appear in logs\n- the counts you add will be flagged as invalid\n- your messages won't appear in the skullbboard.\n\nIf you just wish to be stealth in logs, then the best option is to select a partial opt-out instead, otherwise confirm the total opt-out.",
+        "s" : "Switch to Partial Opt-Out instead",
+        "c" : "Cancel",
+        "r" : "Your privacy preference has been set to **{option}**.",
+        "e1" : "An error occurred while processing your request. Please try again later.",
+        "rc" : "Operation cancelled. No changes made."
     }
 }

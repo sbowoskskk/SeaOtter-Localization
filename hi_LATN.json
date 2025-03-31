@@ -1,5 +1,5 @@
 {
-    "lang" : "hi_LATN",
+    "lang" : "en_US",
     "cfg" : {
         "na" : "Oops, you don't have the required Permissions. (ADMINISTRATOR)",
         "nfa" : "This channel has no features already.",
@@ -40,7 +40,7 @@
         "gsa" : "Succesfully implemented gaymeter feature feature on {channel}.",
         "sre" : "This role had no moderation features. Maybe try to use /config-roles if you wish to remove eventual non-moderation features off {role} (ticket handlers count as such).",
         "arsr" : "All role features were successfully removed on {role}.",
-        "srsu" : "Succesfully updated {role} with moderation rank: {rank}",
+        "srsu" : "Succesfully updated {role} with moderation rank: {rank}.",
         "samr" : "Succesfully added moderation permissions on {role}.\nRank: {rank}.",
         "mrj" : "Joke",
         "mrl" : "Low",
@@ -49,7 +49,7 @@
         "pf" : "This feature will be available in future releases.",
         "lc" : "The language of this server is now english.",
         "sbsa" : "SkullBoard succesfully activated on {channel}.",
-        "vcsa" : "Voice chat role set to {role}",
+        "vcsa" : "Voice chat role set to {role}.",
         "vrm" : "Configure the verified role first: run /config-roles and select 'vefified role' as function",
         "vct" : "Verify",
         "vcd" : "Click the button below to link your CnR Account to your Discord account. This will give you the {role} role and access to the CnR related channels.",
@@ -92,27 +92,29 @@
         "e2" : "Setup the skullboard first. Run `/config-channels`.",
         "e3" : "An unknown error occoured.",
         "jtm" : "Jump to message",
-        "fb" : "message sent to {channel}",
-        "l" : "Has skulled a message"
+        "fb" : "message sent to {channel}.",
+        "l" : "Has skulled a message",
+        "o" : "User opted out of message_content and can't have his messages sent to the skullboard."
     },
     "ctg" : {
         "e1" : "Error: Counting data not found.",
         "e2" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better",
-        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
-        "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}",
+        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
+        "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
         "rs1" : "(You cannot count two numbers in a row).",
         "n" : "The next number is {count}.",
-        "d" : "{mention} deleted their count of `{count}`. The next number is {next}."
+        "d" : "{mention} deleted their count of `{count}`. The next number is {next}.",
+        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
     },
     "lv" : {
         "lut" : "🎉 {mention} just leveled up.",
         "la1" : "🏅 Level achieved:",
-        "la2" : "» Level {level}",
+        "la2" : "» Level {level}.",
         "nl1" : "⭐ Next Level",
         "nl2" : "» Next Level in {points} points",
         "ftr" : "Check your level at anytime by using `/lb` to view the leaderboard",
         "lbt" : "Top 10 users by level",
-        "lb1" : "#{position} - {name}",
+        "lb1" : "#{position} - {name}.",
         "lb2" : "{mention} - Level: {level} - XP: {points} points",
         "lb3" : "#{position} - {mention} - Level: {level} - XP: {points} points"
     },
@@ -120,14 +122,15 @@
         "jts" : "{mention} joined the server",
         "lts" : "{mention} left the server",
         "dm" : "Deleted message",
-        "dmd" : "Channel: {channel}\nUser: {user}\nContent: {content}\nAttachments: {attachment}",
+        "dmd" : "Channel: {channel}\nUser: {user}\nContent: {content}\nAttachments: {attachment}.",
         "nc" : "No Content",
         "ad" : "An attachment has been deleted",
         "mad" : "{number} attachments have been deleted",
         "nad" : "No attachment deleted",
         "em" : "Edited a message",
-        "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}",
+        "emd" : "Channel: {channel}\nUser: {user}\nOld content:\n{oldcontent}\n----------------------------------------\nNew content:\n{newcontent}.",
         "gtm" : "Go to message",
+        "do" : "Channel: {channel}\nUser: {user}\nContent:\n-# User opted out of the message_content intent.",
         "bj" : "Thank you for inviting me to your server!",
         "br" : "Thank you for re-inviting me to your server!",
         "nm" : "No match found"
@@ -154,7 +157,7 @@
         "eo" : "I can't rename you because you're the server owner. your match would be `{name}`",
         "er" : "I can't verify you because your highest role is higher than mine. Please let the server management put my role at a higher position",
         "eu" : "this interaction failed for an unknown reason. Please try again later.",
-        "mv" : "{user} has succesfully verified.\nOld name: {oldname}\nNew name: {newname}",
+        "mv" : "{user} has succesfully verified.\nOld name: {oldname}\nNew name: {newname}.",
         "e1" : "❌ I couldn't create a support thread. Please check if I have 'Manage Threads' and 'Send Messages' permissions for this channel.",
         "e2" : "❌ Invalid embed configuration.",
         "sa" : "Skull reaction added.\nTotal: `{count}`.",
@@ -280,9 +283,23 @@
     "b" : {
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
-        "p" : "Playtime: {value}",
+        "p" : "Playtime: {value}.",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
         "tly" : "{year}'s top 10 {filter}players by playtime"
+    },
+    "c" : {
+        "o" : {
+            "i" : "Opt-In",
+            "p" : "Partial Opt-Out",
+            "t" : "Total Opt-Out"
+        },
+        "t" : "Confirm Total Opt-Out",
+        "d" : "By choosing this option, I won't be able to read your messages' content at all, so:\n- the contents of your messages won't appear in logs\n- the counts you add will be flagged as invalid\n- your messages won't appear in the skullbboard.\n\nIf you just wish to be stealth in logs, then the best option is to select a partial opt-out instead, otherwise confirm the total opt-out.",
+        "s" : "Switch to Partial Opt-Out instead",
+        "c" : "Cancel",
+        "r" : "Your privacy preference has been set to **{option}**.",
+        "e1" : "An error occurred while processing your request. Please try again later.",
+        "rc" : "Operation cancelled. No changes made."
     }
 }

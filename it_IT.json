@@ -93,7 +93,8 @@
         "e3" : "errore sconosciuto.",
         "jtm" : "Vai al messaggio",
         "fb" : "messaggio inviato a {channel}",
-        "l" : "Ha messo un messaggio in skullboard"
+        "l" : "Ha messo un messaggio in skullboard",
+        "o" : "L'utente si è optatə fuori da message_content e non può avere i suoi messaggi nella skullboard."
     },
     "ctg" : {
         "e1" : "Errore: Dati di conteggio non trovati.",
@@ -102,7 +103,8 @@
         "nr" : "{mention} HA ROVINATO IL CONTEGGIO A **{count}**!! Il prossimo numero è 1. {reason}",
         "rs1" : "(Non puoi contare due numeri di seguito).",
         "n" : "Il prossimo numero è {count}.",
-        "d" : "{mention} ha cancellato il suo conto di `{count}`. Il prossimo numero è {next}."
+        "d" : "{mention} ha cancellato il suo conto di `{count}`. Il prossimo numero è {next}.",
+        "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}"
     },
     "lv" : {
         "lut" : "🎉 {mention} È appena salitə di livello.",
@@ -128,6 +130,7 @@
         "em" : "Messaggio modificato",
         "emd" : "Canale: {channel}\nUtente: {user}\nVecchio messaggio:\n{oldcontent}\n-------------------------------------------------------\nNuovo Messaggio:\n{newcontent}",
         "gtm" : "Vai al messaggio",
+        "do" : "Canale: {channel}\nUtente: {user}\nMessaggio:\n-# L'utente si è optatə fuori da message_content",
         "bj" : "Grazie di avermi invitato :D",
         "br" : "Grazie di avermi invitato a tornare :D",
         "nm" : "Nessun match trovato"
@@ -284,5 +287,19 @@
         "nf" : "Nessun vergine {filter}trovato",
         "tlm" : "Top 10 vergini {filter}di {month} {year}",
         "tly" : "Top 10 vergini {filter}del {year}"
+    },
+    "c" : {
+        "o" : {
+            "i" : "Opt-In",
+            "p" : "Opt-Out parziale",
+            "t" : "Opt-Out totale"
+        },
+        "t" : "Conferma Opt-Out totale",
+        "d" : "Se scegli questa opzione, non sarò in grado di leggere il contenuto dei tuoi messaggi, quindi:\n- il contenuto dei tuoi messaggi non apparirà nei log\n- i conteggi che aggiungi saranno contrassegnati come non validi\n- i tuoi messaggi non appariranno nella skullbboard.\n\nSe desideri solo essere invisibile nei log, allora l'opzione migliore è selezionare un opt-out parziale, altrimenti conferma l'opt-out totale.",
+        "s" : "Passa invece a Opt-Out parziale",
+        "c" : "Annulla",
+        "r" : "La tua preferenza sulla privacy è stata impostata su **{option}**.",
+        "e1" : "Si è verificato un errore durante l'elaborazione della richiesta. Riprova più tardi.",
+        "rc" : "Operazione annullata. Nessuna modifica apportata."
     }
 }
