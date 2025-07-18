@@ -300,6 +300,9 @@
         "c" : "Cancel",
         "r" : "Your privacy preference has been set to **{option}**.",
         "e1" : "An error occurred while processing your request. Please try again later.",
-        "rc" : "Operation cancelled. No changes made."
+        "rc" : "Operation cancelled. No changes made.",
+        "e2" : "Counting not set up for this server.",
+        "v1" : "Count mode updated:\nNumbers-only mode enabled.\nYou can now count numbers only, no other messages will be allowed.",
+        "v2" : "Count mode updated:\nNumbers-only mode disabled.\nYou can now count numbers and send messages."
     }
 }

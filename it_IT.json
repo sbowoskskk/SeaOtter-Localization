@@ -300,6 +300,9 @@
         "c" : "Annulla",
         "r" : "La tua preferenza sulla privacy è stata impostata su **{option}**.",
         "e1" : "Si è verificato un errore durante l'elaborazione della richiesta. Riprova più tardi.",
-        "rc" : "Operazione annullata. Nessuna modifica apportata."
+        "rc" : "Operazione annullata. Nessuna modifica apportata.",
+        "e2" : "Il canale counting non è attivo per questo server.",
+        "v1": "Modalità counting aggiornata:\nAbilitata modalità solo numeri.\nDa ora si potrà solo contare, non saranno consentiti altri messaggi.",
+        "v2": "Modalità counting aggiornata:\nDisbilitata modalità solo numeri.\nDa ora si potrà sia contare che inviare messaggi."
     }
 }
