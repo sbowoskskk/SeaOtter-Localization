@@ -303,6 +303,6 @@
         "rc" : "Operazione annullata. Nessuna modifica apportata.",
         "e2" : "Il canale counting non è attivo per questo server.",
         "v1": "Modalità counting aggiornata:\nAbilitata modalità solo numeri.\nDa ora si potrà solo contare, non saranno consentiti altri messaggi.",
-        "v2": "Modalità counting aggiornata:\nDisbilitata modalità solo numeri.\nDa ora si potrà sia contare che inviare messaggi."
+        "v2": "Modalità counting aggiornata:\nAbilitata modalità chat-friendly.\nDa ora si potrà sia contare che inviare messaggi."
     }
 }

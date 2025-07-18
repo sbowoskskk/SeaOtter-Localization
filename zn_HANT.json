@@ -303,6 +303,6 @@
         "rc" : "Operation cancelled. No changes made.",
         "e2" : "Counting not set up for this server.",
         "v1" : "Count mode updated:\nNumbers-only mode enabled.\nYou can now count numbers only, no other messages will be allowed.",
-        "v2" : "Count mode updated:\nNumbers-only mode disabled.\nYou can now count numbers and send messages."
+        "v2" : "Count mode updated:\nChat-friendly mode enabled.\nYou can now count numbers and send messages."
     }
 }
