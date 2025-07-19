@@ -107,7 +107,7 @@
         "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}"
     },
     "lv" : {
-        "up" : "{user} ha appena raggiunto il livello 🎉",
+        "up" : "{mention} ha appena raggiunto il livello 🎉",
         "lv1" : "🏅 Nuovo livello sbloccato",
         "lv2" : "» Livello {level} • XP: {exp} • Prossimo: {next}",
         "st1" : "📊 Statistiche",

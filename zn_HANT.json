@@ -107,7 +107,7 @@
         "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
     },
         "lv" : {
-        "up" : "just leveled up 🎉",
+        "up" : "{mention} just leveled up 🎉",
         "lv1" : "🏅 Level Up",
         "lv2" : "» Level {level} • XP: {exp} • Next: {next}",
         "st1" : "📊 Statistics",
