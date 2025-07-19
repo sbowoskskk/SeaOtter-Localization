@@ -107,16 +107,17 @@
         "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
     },
     "lv" : {
-        "lut" : "🎉 {mention} just leveled up.",
-        "la1" : "🏅 Level achieved:",
-        "la2" : "» Level {level}.",
-        "nl1" : "⭐ Next Level",
-        "nl2" : "» Next Level in {points} points",
-        "ftr" : "Check your level at anytime by using `/lb` to view the leaderboard",
+        "up" : "just leveled up 🎉",
+        "lv1" : "🏅 Level Up",
+        "lv2" : "» Level {level} • XP: {exp} • Next: {next}",
+        "st1" : "📊 Statistics",
+        "st2" : "» Messages: {messages} • VC Time: {vctime}",
+        "ftr" : "Check your level at anytime by using `/rank` and `/lb`",
         "lbt" : "Top 10 users by level",
-        "lb1" : "#{position} - {name}.",
-        "lb2" : "{mention} - Level: {level} - XP: {points} points",
-        "lb3" : "#{position} - {mention} - Level: {level} - XP: {points} points"
+        "lb1" : "#{position} • {name}.",
+        "lb2" : "{mention} • Level: {level} • XP: {points} points\n» Messages: {messages} • VC Time: {vctime}",
+        "lb3" : "#{position} • {mention} • Level: {level} • XP: {points} points\n» Messages: {messages}",
+        "e1" : "An error occurred while processing the level data."
     },
     "logs" : {
         "jts" : "{mention} joined the server",

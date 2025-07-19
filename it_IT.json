@@ -107,17 +107,18 @@
         "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}"
     },
     "lv" : {
-        "lut" : "🎉 {mention} È appena salitə di livello.",
-        "la1" : "🏅 Livello raggiunto:",
-        "la2" : "» Livello: {level}",
-        "nl1" : "⭐ Prossimo Livello",
-        "nl2" : "» Prossimo Livello tra {points} punti",
-        "ftr" : "Controlla il tuo livello in qualsiasi momento usando /lb per visualizzare la classifica.",
-        "lbt" : "Top 10 migliori utenti per livello",
-        "lb1" : "#{position} - {name}",
-        "lb2" : "{mention} - Livello: {level} - XP: {points} punti",
-        "lb3" : "#{position} - {mention} - Livello: {level} - XP: {points} punti"
-    },
+        "up" : "{user} ha appena raggiunto il livello 🎉",
+        "lv1" : "🏅 Nuovo livello sbloccato",
+        "lv2" : "» Livello {level} • XP: {exp} • Prossimo: {next}",
+        "st1" : "📊 Statistiche",
+        "st2" : "» Messaggi: {messages} • Tempo VC: {vctime}",
+        "ftr" : "Controlla il tuo livello in qualsiasi momento usando `/rank` e `/lb`",
+        "lbt" : "I 10 migliori utenti per livello",
+        "lb1" : "#{position} • {name}.",
+        "lb2" : "{mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages} • Tempo VC: {vctime}",
+        "lb3" : "#{position} • {mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages}",
+        "e1": "Si è verificato un errore durante l'elaborazione dei dati del livello."
+        },
     "logs" : {
         "jts" : "{mention} si è unitə al server",
         "lts" : "{mention} ha abbandonato il server",
