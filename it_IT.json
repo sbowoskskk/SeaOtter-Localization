@@ -107,7 +107,7 @@
         "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}"
     },
     "lv" : {
-        "up" : "{mention} ha appena raggiunto il livello 🎉",
+        "up" : "{mention} è appena salitə di livello 🎉",
         "lv1" : "🏅 Nuovo livello sbloccato",
         "lv2" : "» Livello {level} • XP: {exp} • Prossimo: {next}",
         "st1" : "📊 Statistiche",
@@ -117,7 +117,12 @@
         "lb1" : "#{position} • {name}.",
         "lb2" : "{mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages} • Tempo VC: {vctime}",
         "lb3" : "#{position} • {mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages}",
-        "e1": "Si è verificato un errore durante l'elaborazione dei dati del livello."
+        "r1" : "#{rank} nella classifica del server",
+        "r2" : "**Livello**: {level}\n**XP**: {xp} punti\n **Messaggi**: {messages}\n **Tempo VC**: {allVc}\n **Tempo VC del mese**: {monthVc}",
+        "r3" : "Usa /lb per visualizzare la classifica completa.",
+        "e1" : "Si è verificato un errore durante l'elaborazione dei dati di livello.",
+        "e2" : "I bot non hanno rank.",
+        "e3" : "Non ancora classificatə."
         },
     "logs" : {
         "jts" : "{mention} si è unitə al server",
