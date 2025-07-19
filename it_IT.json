@@ -117,7 +117,7 @@
         "lb1" : "#{position} • {name}.",
         "lb2" : "{mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages} • Tempo VC: {vctime}",
         "lb3" : "#{position} • {mention} • Livello: {level} • XP: {points} punti\n» Messaggi: {messages}",
-        "r1" : "#{rank} nella classifica del server",
+        "r1" : "**#{rank}** nella classifica del server",
         "r2" : "**Livello**: {level}\n**XP**: {xp} punti\n **Messaggi**: {messages}\n **Tempo VC**: {allVc}\n **Tempo VC del mese**: {monthVc}",
         "r3" : "Usa /lb per visualizzare la classifica completa.",
         "e1" : "Si è verificato un errore durante l'elaborazione dei dati di livello.",

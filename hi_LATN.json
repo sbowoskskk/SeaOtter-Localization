@@ -117,7 +117,7 @@
         "lb1" : "#{position} • {name}.",
         "lb2" : "{mention} • Level: {level} • XP: {points} points\n» Messages: {messages} • VC Time: {vctime}",
         "lb3" : "#{position} • {mention} • Level: {level} • XP: {points} points\n» Messages: {messages}",
-        "r1" : "#{rank} in serer leaderboard",
+        "r1" : "**#{rank}** in server leaderboard",
         "r2" : "**Level**: {level}\n**XP**: {xp} points\n **Messages**: {messages}\n **VC Time**: {allVc}\n **Monthly VC Time**: {monthVc}",
         "r3" : "Use /lb to view the full leaderboard.",
         "e1" : "An error occurred while processing the level data.",
