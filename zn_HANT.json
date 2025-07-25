@@ -104,7 +104,10 @@
         "rs1" : "(You cannot count two numbers in a row).",
         "n" : "The next number is {count}.",
         "d" : "{mention} deleted their count of `{count}`. The next number is {next}.",
-        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
+        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}",
+        "i" : "This counting channel is set to **{mode}** mode.\nThe last number is **{count}**.",
+        "no" : "numbers-only",
+        "cf" : "chat-friendly"
     },
         "lv" : {
         "up" : "{mention} just leveled up 🎉",

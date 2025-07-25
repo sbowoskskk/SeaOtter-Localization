@@ -104,7 +104,10 @@
         "rs1" : "(Non puoi contare due numeri di seguito).",
         "n" : "Il prossimo numero è {count}.",
         "d" : "{mention} ha cancellato il suo conto di `{count}`. Il prossimo numero è {next}.",
-        "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}"
+        "o" : "Questo messaggio non è valido perchè l'utente si è optatə fuori da message_content. Il prossimo numero è {count}",
+        "i": "Questo canale è impostato sulla modalità **{mode}**.\nL'ultimo numero è **{count}**.",
+        "no": "solo numeri",
+        "cf": "chat-friendly"
     },
     "lv" : {
         "up" : "{mention} è appena salitə di livello 🎉",

@@ -104,7 +104,10 @@
         "rs1" : "(Vous ne pouvez pas compter deux numéros d'affilée)",
         "n" : "Le prochain numéro est {count}.",
         "d" : "{mention} a supprimé son décompte de `{count}`. Le prochain numéro est {next}.",
-        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}"
+        "o" : "This message is not valid because the user opted out of message_content. Next number is {count}",
+        "i" : "This counting channel is set to **{mode}** mode.\nThe last number is **{count}**.",
+        "no" : "numbers-only",
+        "cf" : "chat-friendly"
     },
     "lv" : {
         "up" : "{mention} just leveled up 🎉",
