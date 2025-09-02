@@ -270,7 +270,7 @@
             "ul" : "Has updated {user}'s timeout to {time}.\n**Reason**: {reason}.",
             "ud" : "Your timeout has been updated to {time} in {guild}.\n**Reason**: {reason}.",
             "sf" : "{user} was timed out for {time}.\n**Reason**: {reason}.",
-            "sl" : "Has timed out {user} ({user.id}) for {time}.\n**Reason**: {reason}.",
+            "sl" : "Has timed out {user} for {time}.\n**Reason**: {reason}.",
             "sd" : "You were timed out for {time} in {guild}.\n**Reason**: {reason}.",
             "dp" : "You can't mute my daddy<:Goofy_laugh_2:1232240149933330523>",
             "af" : "User anonimously timed out",

@@ -270,7 +270,7 @@
         "ul" : "Ha aggiornato il timeout di {user} a {time}.\n**Motivo**: {reason}.",
         "ud" : "Il tuo timeout è stato aggiornato a {time} in {guild}.\n**Motivo**: {reason}.",
         "sf" : "{user} è statə mutatə per {time}.\n**Motivo**: {reason}.",
-        "sl" : "Ha mutato {user} ({user.id}) per {time}.\n**Motivo**: {reason}.",
+        "sl" : "Ha mutato {user} per {time}.\n**Motivo**: {reason}.",
         "sd" : "Sei statə mutatə per {time} in {guild}.\n**Motivo**: {reason}.",
         "dp" : "Non puoi mutare mio padre<:Goofy_laugh_2:1232240149933330523>",
         "af" : "L'utente è statə mutstə in modo anonimo",
