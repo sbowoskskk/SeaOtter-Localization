@@ -99,6 +99,7 @@
     "ctg" : {
         "e1" : "Грешка: Данни за броене не са намерени.",
         "e2" : "Не мога да присвоя ролята. Поставете ролята ми най-отгоре.",
+        "e3" : "I don't have the permissions to react to user's messages. This module has been disabled. Thanks for playing.",
         "r" : "НОВ РЕКОРД **{record}**!\n\n{mention} ПРЕЦАКА НА **{count}**!! Следващото число е 1. {reason}",
         "nr" : "{mention} ПРЕЦАКА НА **{count}**!! Следващото число е 1. {reason}",
         "rs1" : "(Не може да броите последователни числа).",

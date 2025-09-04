@@ -99,6 +99,7 @@
     "ctg" : {
         "e1" : "Errore: Dati di conteggio non trovati.",
         "e2" : "Non posso assegnare il ruolo a questo utente. Per favore metti il mio ruolo in cima per farmi funzionare meglio",
+        "e3" : "Non ho i permessi per aggiungere reazioni ai messaggi. Questo modulo è stato disabilitato, grazie per aver giocato.",
         "r" : "NUOVO RECORD **{record}**!\n\n{mention} HA ROVINATO IL CONTEGGIO A **{count}**!! Il prossimo numero è 1. {reason}",
         "nr" : "{mention} HA ROVINATO IL CONTEGGIO A **{count}**!! Il prossimo numero è 1. {reason}",
         "rs1" : "(Non puoi contare due numeri di seguito).",
