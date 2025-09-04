@@ -100,6 +100,7 @@
         "e1" : "Erreur : Données de comptage non trouvées",
         "e2" : "Je ne peux pas attribuer le rôle d'échec à cet utilisateur car son rôle est supérieur au mien. Veuillez placer mon rôle en haut pour que je fonctionne mieux",
         "e3" : "I don't have the permissions to react to user's messages. This module has been disabled. Thanks for playing.",
+        "e4" : "I don't have the permissions to read message history. This module has been disabled. Thanks for playing.",
         "r" : "NOUVEAU RECORD **{record}**!\n\n{mention} RATÉ À **{count}**!! Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
         "nr" : "{mention} RATÉ À **{count}**!! Le prochain numéro est 1. (Vous ne pouvez pas compter deux numéros d'affilée)",
         "rs1" : "(You cannot count two numbers in a row)",

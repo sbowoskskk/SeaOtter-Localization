@@ -100,6 +100,7 @@
         "e1" : "Error: Counting data not found.",
         "e2" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better",
         "e3" : "I don't have the permissions to react to user's messages. This module has been disabled. Thanks for playing.",
+        "e4" : "I don't have the permissions to read message history. This module has been disabled. Thanks for playing.",
         "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
         "nr" : "{mention} RUINED IT AT **{count}**!! The next number is 1. {reason}.",
         "rs1" : "(You cannot count two numbers in a row)",
