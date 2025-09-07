@@ -190,6 +190,7 @@
         "e2" : "Hai bisogno di un ruolo superiore per finalizzare questa azione su quest'utente",
         "e3" : "Questa interazione è fallita perché il target ha un ruolo superiore al mio.",
         "e4" : "⛔ | Non hai i permessi necessari per usare questo comando.",
+        "e5" : "Si è verificato un errore sconosciuto durante l'elaborazione della richiesta. Per favore riprova più tardi.",
         "b" : {
             "yf" : "Sei statə bannatə permanentemente dal server {guild}.\n**Motivo**: {reason}.",
             "bl" : "Ha bannato permanentemente {user}.\n**Motivo**: {reason}.",

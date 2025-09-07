@@ -190,6 +190,7 @@
         "e2" : "Vous avez besoin d'un rôle plus élevé pour finaliser cette action envers ce membre !",
         "e3" : "Cette interaction a échoué, car la cible a un rôle plus élevé que le mien.",
         "e4" : "⛔ | Vous n'avez pas l'autorisation d'utiliser cette commande.",
+        "e5" : "Une erreur inconnue s'est produite lors du traitement de la demande. Veuillez réessayer plus tard.",
         "b" : {
             "yf" : "Vous avez été banni indéfiniment du serveur Discord {guild}.\n**Raison** : {reason}.",
             "bl" : "A banni indéfiniment {user} du serveur Discord.\n**Raison** : {reason}.",
