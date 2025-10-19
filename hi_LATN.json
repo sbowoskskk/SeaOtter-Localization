@@ -25,7 +25,7 @@
         "set" : "This channel will display CnR V's server status.",
         "sed" : "It will take up to a minute to start displaying the status.",
         "ssa" : "Succesfully activated status updates on {channel}.",
-        "pte" : "This feature requires to select a filter-title. the filter-title will be used as filter for the names or uids.",
+        "pte" : "This feature requires to enter a filter. The filter may be formatted in JSON to specify multiple values.",
         "pet" : "This channel will display {filter}'s online players.",
         "ped" : "It will take up to a minute to start displaying the online players.",
         "psa" : "Succesfully activated online players embed on {channel}.\nI will show all the online players whose names or uids contains {filter}.",

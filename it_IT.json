@@ -25,7 +25,7 @@
         "set" : "Questo canale mostrerà lo stato dei server di CnR V.",
         "sed" : "Ci vorrà massimo a un minuto per iniziare a mostrare i dati.",
         "ssa" : "Aggiornamenti sullo stato dei server attivati in {channel}.",
-        "pte" : "Questa funzionalità richiede di selezionare un filter-title. Il filter-title verrà utilizzato come filtro per i nomi o gli uid.",
+        "pte" : "Questa funzionalità richiede l'inserimento di un filtro. Il filtro può essere formattato in formato JSON per specificare più valori.",
         "pet" : "Questo canale visualizzerà i giocatori online con filtro {filter}.",
         "ped" : "Ci vorrà fino a un minuto per iniziare a visualizzare i giocatori online.",
         "psa" : "L'embed dei giocatori online è stato attivato in {channel}.\nMostrerò tutti i giocatori i cui nomi contengono {filter}",

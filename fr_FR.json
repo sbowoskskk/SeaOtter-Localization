@@ -25,7 +25,7 @@
         "set" : "Ce salon affichera l'état du serveur CnR V",
         "sed" : "Il faudra jusqu'à une minute pour commencer à afficher l'état",
         "ssa" : "mises à jour d'état activées avec succès sur {channel}.",
-        "pte" : "Cette fonctionnalité nécessite la sélection d'un titre de filtre. Ce titre sera utilisé comme filtre pour les noms ou les identifiants utilisateur.",
+        "pte" : "Cette fonctionnalité nécessite la saisie d'un filtre. Ce filtre peut être formaté en JSON pour spécifier plusieurs valeurs.",
         "pet" : "Ce canal affichera les joueurs en ligne de {filter}.",
         "ped" : "Il faudra jusqu'à une minute pour commencer à afficher les joueurs en ligne.",
         "psa" : "Intégration des joueurs en ligne activée avec succès sur {channel}.\nJ'afficherai tous les joueurs en ligne dont le nom ou l'identifiant utilisateur contient {filter}.",
