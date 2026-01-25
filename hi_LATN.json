@@ -283,7 +283,8 @@
             "rf" : "{user}'s timeout was removed.\n**Reason**: {reason}.",
             "rl" : "Has removed {user}'s timeout.\n**Reason**: {reason}.",
             "rd" : "Your timeout has been removed.\n**Reason**: {reason}.",
-            "au" : "Timeout anonimously removed."
+            "au" : "Timeout anonimously removed.",
+            "nt" : "This user is not timed out."
         }
     },
     "a" : {
