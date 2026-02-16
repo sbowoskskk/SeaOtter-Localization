@@ -101,8 +101,8 @@
         "e2" : "Не мога да присвоя ролята. Поставете ролята ми най-отгоре.",
         "e3" : "I don't have the permissions to react to user's messages. This module has been disabled. Thanks for playing.",
         "e4" : "I don't have the permissions to read message history. This module has been disabled. Thanks for playing.",
-        "r" : "НОВ РЕКОРД **{record}**!\n\n{mention} ПРЕЦАКА НА **{ruined}**!! Следващото число е {next}. {reason}",
-        "nr" : "{mention} ПРЕЦАКА НА **{ruined}**!! Следващото число е {next}. {reason}",
+        "r" : "НОВ РЕКОРД **{record}**!\n\n{mention} ПРЕЦАКА НА **{ruined}**!!\nRestarting from **{restart}**.\nNew checkpoint is **{newCheckpoint}**.\nСледващото число е {next}. {reason}",
+        "nr" : "{mention} ПРЕЦАКА НА **{ruined}**!!\nRestarting from **{restart}**.\nNew checkpoint is **{newCheckpoint}**.\nСледващото число е {next}. {reason}",
         "rs1" : "(Не може да броите последователни числа)",
         "rs2" : "(Your number is not the next in the sequence)",
         "rs3" : "(Your message is not a number)",
@@ -110,9 +110,14 @@
         "n" : "Следващото число е {count}.",
         "d" : "{mention} изтри своя брой от `{count}`. Следващото число е {next}.",
         "o" : "Това съобщение е невалидно, защото потребителят се отказа от message_content. Следващото число е {count}.",
-        "i" : "Този канал за броене е настроен на режим **{mode}**.\nПоследното число е **{count}**.\nЛокален рекорд: **{guildRecord}**.\nГлобален рекорд: **{highestRecord}**.",
+        "i" : "Този канал за броене е настроен на режим **{mode}**.\nПоследното число е **{count}**.\nЛокален рекорд: **{guildRecord}**.\nГлобален рекорд: **{highestRecord}**.\nCheckpoint **{checkpointStatus}**{checkpointLine}.",
         "no" : "само числа",
-        "cf" : "подходящ за чат"
+        "cf" : "подходящ за чат",
+        "on" : "Активиран",
+        "off" : "Деактивиран",
+        "cc" : "\nТекущ checkpoint: **{checkpoint}**.",
+        "cp" : "New checkpoint reached: **{checkpoint}**!"
+
     },
     "lv" : {
         "up" : "{mention} току-що повиши нивото си 🎉",

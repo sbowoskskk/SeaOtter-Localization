@@ -101,8 +101,8 @@
         "e2" : "I can't assign the failrole to this user because their role is higher than mine. Please put my role on top to make me perform better",
         "e3" : "I don't have the permissions to react to user's messages. This module has been disabled. Thanks for playing.",
         "e4" : "I don't have the permissions to read message history. This module has been disabled. Thanks for playing.",
-        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{ruined}**!! The next number is {next}. {reason}.",
-        "nr" : "{mention} RUINED IT AT **{ruined}**!! The next number is {next}. {reason}.",
+        "r" : "NEW RECORD **{record}**!\n\n{mention} RUINED IT AT **{ruined}**!!\nRestarting from **{restart}**.\nNew checkpoint is **{newCheckpoint}**.\nThe next number is **{next}**. {reason}.",
+        "nr" : "{mention} RUINED IT AT **{ruined}**!!\nRestarting from **{restart}**.\nNew checkpoint is **{newCheckpoint}**.\nThe next number is **{next}**. {reason}.",
         "rs1" : "(You cannot count two numbers in a row)",
         "rs2" : "(Your number is not the next in the sequence)",
         "rs3" : "(Your message is not a number)",
@@ -110,9 +110,13 @@
         "n" : "The next number is {count}.",
         "d" : "{mention} deleted their count of `{count}`. The next number is {next}.",
         "o" : "This message is not valid because the user opted out of message_content. Next number is {count}",
-        "i" : "This counting channel is set to **{mode}** mode.\nThe last number is **{count}**.\nLocal record: **{guildRecord}**.\nGlobal record: **{highestRecord}**.",
+        "i" : "This counting channel is set to **{mode}** mode.\nThe last number is **{count}**.\nLocal record: **{guildRecord}**.\nGlobal record: **{highestRecord}**.\nCheckpoint: **{checkpointStatus}**{checkpointLine}",
         "no" : "numbers-only",
-        "cf" : "chat-friendly"
+        "cf" : "chat-friendly",
+        "on" : "Enabled",
+        "off" : "Disabled",
+        "cc" : "\nCurrent checkpoint: **{checkpoint}**.",
+        "cp" : "New checkpoint reached: **{checkpoint}**!"
     },
     "lv" : {
         "up" : "{mention} just leveled up 🎉",
