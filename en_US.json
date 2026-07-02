@@ -64,18 +64,9 @@
         "vf3" : "Succesfully activated past month playtime embed on {channel}.\nI will display the past month playtime for all the players"
     },
     "st" : {
-        "t" : "CnR V & FiveM Servers Status",
+        "t" : "Services Status",
         "d" : "Players: {players}\nPlayers In Queue: {pqueue}\nServers Slots: {slots}\nRestart in: {restart}\n[Connect {server} {flag}]({url})",
-        "cs" : "{status} - [Status CFX.re](https://status.cfx.re/)",
-        "fs" : {
-            "ao" : "All Systems Operational",
-            "po" : "Partial System Outage",
-            "pso" : "Partial Service Outage",
-            "sum" : "Service Under Maintenance",
-            "pds" : "Partially degraded Service",
-            "mo" : "Major System Outage",
-            "mso" : "Major Service Outage"
-        }
+        "cs" : "🤖 [Sea Otter Status](https://seaotter.statuspage.io/) • 👾[Discord Status](https://discordstatus.com/) • 🎮 [Rockstar Status](https://support.rockstargames.com/servicestatus) • 🔫 [CnR Status](https://gtacnr.net/status)"
     },
     "cnrp" : {
         "t" : "Online {filter} players",

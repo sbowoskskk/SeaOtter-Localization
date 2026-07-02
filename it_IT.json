@@ -64,18 +64,9 @@
         "vf3" : "Attivato l'embed del tempo di gioco del mese precedente su {channel}.\nMostrerò il tempo di gioco del mese scorso per tutti i giocatori"
     },
     "st" : {
-        "t" : "Stato dei Server CnR V & FiveM",
-        "d" : "Giocatori: {players}\nGiocatori in coda: {pqueue}\nTetto giocatori: {slots}\nRiavvio in: {restart}\n[Connttiti a {server} {flag}]({url})",
-        "cs" : "{status} - [Stato CFX.re](https://status.cfx.re/)",
-        "fs" : {
-            "ao" : "Tutti i sistemi sono operativi",
-            "po" : "Guasto parziale del sistema",
-            "pso" : "Guasto Parziale del servizio",
-            "sum" : "Servizio in manutenzione",
-            "pds" : "Servizio parzialmente degradato",
-            "mo" : "Grave guasto del sistema",
-            "mso" : "Grave interruzione del servizio"
-        }
+        "t" : "Stato dei servizi",
+        "d" : "Giocatori: {players}\nGiocatori in coda: {pqueue}\nSlot server: {slots}\nRiavvia in: {restart}\n[Connetti {server} {flag}]({url})",
+        "cs" : "🤖 [Stato di Sea Otter](https://seaotter.statuspage.io/) • 👾[Stato di Discord](https://discordstatus.com/) • 🎮 [Stato di Rockstar](https://support.rockstargames.com/servicestatus) • 🔫 [Stato di CnR](https://gtacnr.net/status)"
     },
     "cnrp" : {
         "t" : "Giocatori {filter} online",
