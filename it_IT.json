@@ -66,8 +66,7 @@
     "st" : {
         "t" : "Stato dei servizi",
         "d" : "Giocatori: {players}\nGiocatori in coda: {pqueue}\nSlot server: {slots}\nRiavvia in: {restart}\n[Connetti {server} {flag}]({url})",
-        "cs1" : "🔗 Status Pages",
-        "cs2" : "🤖 [Stato di Sea Otter](https://seaotter.statuspage.io/) • 👾[Stato di Discord](https://discordstatus.com/) • 🎮 [Stato di Rockstar](https://support.rockstargames.com/servicestatus) • 🔫 [Stato di CnR](https://gtacnr.net/status)"
+        "cs" : "🤖 [Stato di Sea Otter](https://seaotter.statuspage.io/) • 👾 [Stato di Discord](https://discordstatus.com/) • 🎮 [Stato di Rockstar](https://support.rockstargames.com/servicestatus) • 🔫 [Stato di CnR](https://gtacnr.net/status)"
     },
     "cnrp" : {
         "t" : "Giocatori {filter} online",

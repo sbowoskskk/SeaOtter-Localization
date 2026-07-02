@@ -66,8 +66,7 @@
     "st" : {
         "t" : "Services Status",
         "d" : "Players: {players}\nPlayers In Queue: {pqueue}\nServers Slots: {slots}\nRestart in: {restart}\n[Connect {server} {flag}]({url})",
-        "cs1" : "🔗 Status Pages",
-        "cs2" : "🤖 [Sea Otter Status](https://seaotter.statuspage.io/) • 👾[Discord Status](https://discordstatus.com/) • 🎮 [Rockstar Status](https://support.rockstargames.com/servicestatus) • 🔫 [CnR Status](https://gtacnr.net/status)"
+        "cs" : "🤖 [Sea Otter Status](https://seaotter.statuspage.io/) • 👾 [Discord Status](https://discordstatus.com/) • 🎮 [Rockstar Status](https://support.rockstargames.com/servicestatus) • 🔫 [CnR Status](https://gtacnr.net/status)"
     },
     "cnrp" : {
         "t" : "Online {filter} players",
