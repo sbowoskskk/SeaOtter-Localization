@@ -304,8 +304,9 @@
         "p" : "Playtime: {value}.",
         "p2" : "**{rank}.** {name} — {value}",
         "nf" : "No {filter}players found",
-        "tlm" : "{month} {year}'s top 10 {filter}players by playtime",
-        "tly" : "{year}'s top 10 {filter}players by playtime"
+        "tlm" : "{month} {year}'s top 50 {filter}players by playtime",
+        "tly" : "{year}'s top 50 {filter}players by playtime",
+        "tot" : "Total playtime: {value}."
     },
     "c" : {
         "o" : {
