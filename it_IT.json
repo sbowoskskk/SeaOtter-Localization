@@ -302,7 +302,7 @@
         "ta" : "Top 10 vergini {filter}di tutti i tempi",
         "tcm" : "Top 10 vergini {filter}di {month}",
         "p" : "Playtime: {value}",
-        "p2" : "**{rank}.** {name} — {value}",
+        "p2" : "**{rank}.** {name}   —  {value}",
         "nf" : "Nessun vergine {filter}trovato",
         "tlm" : "Top 50 vergini {filter}di {month} {year}",
         "tly" : "Top 50 vergini {filter}del {year}",

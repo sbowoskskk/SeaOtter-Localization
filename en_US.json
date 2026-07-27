@@ -302,7 +302,7 @@
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
         "p" : "Playtime: {value}.",
-        "p2" : "**{rank}.** {name} — {value}",
+        "p2" : "**{rank}.** {name}   —  {value}",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 50 {filter}players by playtime",
         "tly" : "{year}'s top 50 {filter}players by playtime",
