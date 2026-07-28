@@ -301,7 +301,7 @@
         "ta" : "Top 10 all time {filter}players by playtime",
         "tcm" : "{month}'s top 10 {filter}players by playtime",
         "p" : "Playtime: {value}.",
-        "p2" : "**{rank}.** {name}\u2003\u2003•\u2003\u2003{value}",
+        "p2" : "**{rank}.** {name}\u2003•  {value}",
         "nf" : "No {filter}players found",
         "tlm" : "{month} {year}'s top 50 {filter}players by playtime",
         "tly" : "{year}'s top 50 {filter}players by playtime",
